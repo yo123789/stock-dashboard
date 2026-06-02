@@ -1,0 +1,723 @@
+[
+  {
+    "date": "2026-06-02",
+    "day_of_week": "鍛ㄤ簩",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4075.1,
+      "change_pct": 0.43,
+      "up_count": 2818,
+      "down_count": 2607,
+      "emotion": 51
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "閫氫俊璁惧",
+          "count": 7
+        },
+        {
+          "name": "閫氱敤璁惧",
+          "count": 4
+        },
+        {
+          "name": "鍏夊鍏夌數",
+          "count": 4
+        },
+        {
+          "name": "鑷姩鍖栬",
+          "count": 4
+        },
+        {
+          "name": "鍏冧欢",
+          "count": 4
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 67,
+      "limit_down": 16
+    },
+    "summary": "浠婃棩澶х洏绐勫箙闇囪崱 +0.43%锛屾定鍋?7瀹讹紝璺屽仠16瀹讹紝棰嗘定鏉垮潡涓洪€氫俊璁惧銆?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟/棰嗘定鏉垮潡涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑鍚堢悊浼扮畻",
+    "fetch_time": "2026-06-02 19:34:43"
+  },
+  {
+    "date": "2026-06-01",
+    "day_of_week": "鍛ㄤ竴",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4057.74,
+      "change_pct": -0.27,
+      "up_count": 2577,
+      "down_count": 2848,
+      "emotion": 47
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "娑堣垂鐢靛瓙",
+          "count": 9
+        },
+        {
+          "name": "鐓ょ偔寮€閲?,
+          "count": 9
+        },
+        {
+          "name": "IT鏈嶅姟鈪?,
+          "count": 8
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 7
+        },
+        {
+          "name": "姹借溅闆堕儴",
+          "count": 5
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 120,
+      "limit_down": 21
+    },
+    "summary": "浠婃棩澶х洏绐勫箙闇囪崱 -0.27%锛屾定鍋?20瀹讹紝璺屽仠21瀹讹紝棰嗘定鏉垮潡涓烘秷璐圭數瀛愩€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-29",
+    "day_of_week": "鍛ㄤ簲",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4068.57,
+      "change_pct": -0.73,
+      "up_count": 2450,
+      "down_count": 2975,
+      "emotion": 45
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鐢靛姏",
+          "count": 8
+        },
+        {
+          "name": "涓€鑸浂鍞?,
+          "count": 8
+        },
+        {
+          "name": "鎴垮湴浜у紑",
+          "count": 5
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 2
+        },
+        {
+          "name": "娑堣垂鐢靛瓙",
+          "count": 2
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 49,
+      "limit_down": 50
+    },
+    "summary": "浠婃棩澶х洏灏忓箙鍥炶皟 -0.73%锛屾定鍋?9瀹讹紝璺屽仠50瀹讹紝棰嗘定鏉垮潡涓虹數鍔涖€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-28",
+    "day_of_week": "鍛ㄥ洓",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4098.64,
+      "change_pct": 0.12,
+      "up_count": 2698,
+      "down_count": 2727,
+      "emotion": 49
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鐢靛姏",
+          "count": 8
+        },
+        {
+          "name": "鍏冧欢",
+          "count": 8
+        },
+        {
+          "name": "閫氱敤璁惧",
+          "count": 8
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 5
+        },
+        {
+          "name": "鐢垫睜",
+          "count": 4
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 102,
+      "limit_down": 8
+    },
+    "summary": "浠婃棩澶х洏绐勫箙闇囪崱 +0.12%锛屾定鍋?02瀹讹紝璺屽仠8瀹讹紝棰嗘定鏉垮潡涓虹數鍔涖€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-27",
+    "day_of_week": "鍛ㄤ笁",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4093.73,
+      "change_pct": -1.25,
+      "up_count": 1864,
+      "down_count": 3561,
+      "emotion": 34
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鐢靛姏",
+          "count": 6
+        },
+        {
+          "name": "鍏冧欢",
+          "count": 4
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 4
+        },
+        {
+          "name": "涓撶敤璁惧",
+          "count": 3
+        },
+        {
+          "name": "鎴垮湴浜у紑",
+          "count": 2
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 47,
+      "limit_down": 22
+    },
+    "summary": "浠婃棩澶х洏灏忓箙鍥炶皟 -1.25%锛屾定鍋?7瀹讹紝璺屽仠22瀹讹紝棰嗘定鏉垮潡涓虹數鍔涖€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-26",
+    "day_of_week": "鍛ㄤ簩",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4145.37,
+      "change_pct": -0.17,
+      "up_count": 2605,
+      "down_count": 2820,
+      "emotion": 48
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍏冧欢",
+          "count": 4
+        },
+        {
+          "name": "鍏夊鍏夌數",
+          "count": 3
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 3
+        },
+        {
+          "name": "濉戞枡",
+          "count": 3
+        },
+        {
+          "name": "灏忛噾灞?,
+          "count": 3
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 46,
+      "limit_down": 16
+    },
+    "summary": "浠婃棩澶х洏绐勫箙闇囪崱 -0.17%锛屾定鍋?6瀹讹紝璺屽仠16瀹讹紝棰嗘定鏉垮潡涓哄厓浠躲€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-25",
+    "day_of_week": "鍛ㄤ竴",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4152.57,
+      "change_pct": 0.96,
+      "up_count": 3023,
+      "down_count": 2402,
+      "emotion": 55
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍗婂浣?,
+          "count": 9
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 9
+        },
+        {
+          "name": "鍏冧欢",
+          "count": 5
+        },
+        {
+          "name": "涓撶敤璁惧",
+          "count": 5
+        },
+        {
+          "name": "鎴垮湴浜у紑",
+          "count": 4
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 103,
+      "limit_down": 15
+    },
+    "summary": "浠婃棩澶х洏娓╁拰涓婃定 +0.96%锛屾定鍋?03瀹讹紝璺屽仠15瀹讹紝棰嗘定鏉垮潡涓哄崐瀵间綋銆?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-22",
+    "day_of_week": "鍛ㄤ簲",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4112.9,
+      "change_pct": 0.87,
+      "up_count": 2988,
+      "down_count": 2437,
+      "emotion": 55
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍏冧欢",
+          "count": 16
+        },
+        {
+          "name": "閫氱敤璁惧",
+          "count": 7
+        },
+        {
+          "name": "鍖栧鍒跺搧",
+          "count": 6
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 4
+        },
+        {
+          "name": "涓撶敤璁惧",
+          "count": 4
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 115,
+      "limit_down": 5
+    },
+    "summary": "浠婃棩澶х洏娓╁拰涓婃定 +0.87%锛屾定鍋?15瀹讹紝璺屽仠5瀹讹紝棰嗘定鏉垮潡涓哄厓浠躲€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-21",
+    "day_of_week": "鍛ㄥ洓",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4077.28,
+      "change_pct": -2.04,
+      "up_count": 1821,
+      "down_count": 3604,
+      "emotion": 33
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍏夊鍏夌數",
+          "count": 6
+        },
+        {
+          "name": "姹借溅闆堕儴",
+          "count": 4
+        },
+        {
+          "name": "鐢熺墿鍒跺搧",
+          "count": 3
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 2
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 1
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 34,
+      "limit_down": 25
+    },
+    "summary": "浠婃棩澶х洏澶у箙涓嬭穼 -2.04%锛屾定鍋?4瀹讹紝璺屽仠25瀹讹紝棰嗘定鏉垮潡涓哄厜瀛﹀厜鐢点€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-20",
+    "day_of_week": "鍛ㄤ笁",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4162.19,
+      "change_pct": -0.18,
+      "up_count": 2602,
+      "down_count": 2823,
+      "emotion": 47
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍗婂浣?,
+          "count": 6
+        },
+        {
+          "name": "閫氱敤璁惧",
+          "count": 3
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 3
+        },
+        {
+          "name": "鎴垮湴浜у紑",
+          "count": 3
+        },
+        {
+          "name": "姹借溅闆堕儴",
+          "count": 3
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 61,
+      "limit_down": 22
+    },
+    "summary": "浠婃棩澶х洏绐勫箙闇囪崱 -0.18%锛屾定鍋?1瀹讹紝璺屽仠22瀹讹紝棰嗘定鏉垮潡涓哄崐瀵间綋銆?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-19",
+    "day_of_week": "鍛ㄤ簩",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4169.54,
+      "change_pct": 0.92,
+      "up_count": 3007,
+      "down_count": 2418,
+      "emotion": 55
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍏冧欢",
+          "count": 8
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 8
+        },
+        {
+          "name": "IT鏈嶅姟鈪?,
+          "count": 5
+        },
+        {
+          "name": "閫氱敤璁惧",
+          "count": 5
+        },
+        {
+          "name": "閫氫俊璁惧",
+          "count": 4
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 90,
+      "limit_down": 8
+    },
+    "summary": "浠婃棩澶х洏娓╁拰涓婃定 +0.92%锛屾定鍋?0瀹讹紝璺屽仠8瀹讹紝棰嗘定鏉垮潡涓哄厓浠躲€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-18",
+    "day_of_week": "鍛ㄤ竴",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4131.53,
+      "change_pct": -0.09,
+      "up_count": 2627,
+      "down_count": 2798,
+      "emotion": 48
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍏冧欢",
+          "count": 5
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 5
+        },
+        {
+          "name": "IT鏈嶅姟鈪?,
+          "count": 4
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 4
+        },
+        {
+          "name": "鑷姩鍖栬",
+          "count": 4
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 82,
+      "limit_down": 18
+    },
+    "summary": "浠婃棩澶х洏绐勫箙闇囪崱 -0.09%锛屾定鍋?2瀹讹紝璺屽仠18瀹讹紝棰嗘定鏉垮潡涓哄厓浠躲€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-15",
+    "day_of_week": "鍛ㄤ簲",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4135.39,
+      "change_pct": -1.02,
+      "up_count": 1877,
+      "down_count": 3548,
+      "emotion": 34
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍖栧鍒跺搧",
+          "count": 6
+        },
+        {
+          "name": "姹借溅闆堕儴",
+          "count": 4
+        },
+        {
+          "name": "瀹跺眳鐢ㄥ搧",
+          "count": 3
+        },
+        {
+          "name": "鑷姩鍖栬",
+          "count": 3
+        },
+        {
+          "name": "閫氱敤璁惧",
+          "count": 3
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 54,
+      "limit_down": 15
+    },
+    "summary": "浠婃棩澶х洏灏忓箙鍥炶皟 -1.02%锛屾定鍋?4瀹讹紝璺屽仠15瀹讹紝棰嗘定鏉垮潡涓哄寲瀛﹀埗鍝併€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-14",
+    "day_of_week": "鍛ㄥ洓",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4177.92,
+      "change_pct": -1.52,
+      "up_count": 1849,
+      "down_count": 3576,
+      "emotion": 34
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鍖栧鍒跺搧",
+          "count": 5
+        },
+        {
+          "name": "鍏変紡璁惧",
+          "count": 4
+        },
+        {
+          "name": "鐢靛姏",
+          "count": 4
+        },
+        {
+          "name": "閫氫俊璁惧",
+          "count": 3
+        },
+        {
+          "name": "姹借溅闆堕儴",
+          "count": 2
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 55,
+      "limit_down": 17
+    },
+    "summary": "浠婃棩澶х洏灏忓箙鍥炶皟 -1.52%锛屾定鍋?5瀹讹紝璺屽仠17瀹讹紝棰嗘定鏉垮潡涓哄寲瀛﹀埗鍝併€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  },
+  {
+    "date": "2026-05-13",
+    "day_of_week": "鍛ㄤ笁",
+    "status": "success",
+    "sh_index": {
+      "index_name": "涓婅瘉鎸囨暟",
+      "price": 4242.57,
+      "change_pct": 0.67,
+      "up_count": 2911,
+      "down_count": 2514,
+      "emotion": 53
+    },
+    "sector": {
+      "total": 90,
+      "up_count": 35,
+      "down_count": 51,
+      "emotion": 100,
+      "top5": [
+        {
+          "name": "鐢靛姏",
+          "count": 13
+        },
+        {
+          "name": "鐢电綉璁惧",
+          "count": 7
+        },
+        {
+          "name": "姹借溅闆堕儴",
+          "count": 6
+        },
+        {
+          "name": "鍖栧鍒跺搧",
+          "count": 6
+        },
+        {
+          "name": "娑堣垂鐢靛瓙",
+          "count": 5
+        }
+      ]
+    },
+    "limit": {
+      "limit_up": 113,
+      "limit_down": 2
+    },
+    "summary": "浠婃棩澶х洏娓╁拰涓婃定 +0.67%锛屾定鍋?13瀹讹紝璺屽仠2瀹讹紝棰嗘定鏉垮潡涓虹數鍔涖€?,
+    "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
+    "_note": "娑ㄥ仠/璺屽仠/鎸囨暟涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬鐪熷疄娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑浼扮畻鍊?
+  }
+]
