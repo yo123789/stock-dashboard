@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-A鑲¤鎯呮暟鎹噰闆嗚剼鏈?v2
-鏁版嵁婧? AKShare (涓滄柟璐㈠瘜娑ㄥ仠/璺屽仠鎺ュ彛) + 鏂版氮鎸囨暟鎺ュ彛
-杈撳嚭锛欴:\stock-dashboard\data\YYYY-MM-DD.json + D:\stock-dashboard\history.json锛堟渶杩?5澶╋級
-鎵€鏈夊叧閿暟鎹潎涓虹湡瀹濧PI鏁版嵁锛堟定鍋?璺屽仠/鎸囨暟/棰嗘定鏉垮潡锛?"""
+# A-share market sentiment data fetcher v3
+# Data sources: AKShare + Sina index API
+# Output: data/YYYY-MM-DD.json + history.json (last 15 days)
 
 import os
 import sys
@@ -14,14 +11,12 @@ from datetime import datetime, date, timedelta
 try:
     import akshare as ak
 except ImportError:
-    print("璇峰厛瀹夎 akshare: pip install akshare")
+    print("Please install akshare: pip install akshare")
     sys.exit(1)
 
-# ===================== 閰嶇疆 =====================
-DATA_DIR = r"D:\stock-dashboard\data"
-HISTORY_FILE = r"D:\stock-dashboard\history.json"
+DATA_DIR = "data"
+HISTORY_FILE = "history.json"
 
-# ===================== 浜ゆ槗鏃ュ垽鏂?=====================
 def is_weekend(dt=None):
     if dt is None:
         dt = date.today()
@@ -56,7 +51,6 @@ def get_last_trade_day(from_date=None, limit=30):
             return current
     return None
 
-# ===================== 鎯呯华璁＄畻 =====================
 def calc_emotion(up, down):
     total = up + down
     if total == 0:
@@ -64,62 +58,87 @@ def calc_emotion(up, down):
     ratio = up / total
     return int(max(0, min(100, ratio * 100)))
 
-# ===================== 鏁版嵁鎶撳彇 =====================
 def fetch_sh_index(target_date):
-    """閫氳繃鏂版氮鎺ュ彛鑾峰彇涓婅瘉鎸囨暟鍘嗗彶鏁版嵁"""
+    """Fetch Shanghai Composite Index via Sina API"""
     try:
         df = ak.stock_zh_index_daily(symbol="sh000001")
         if df is None or len(df) == 0:
-            raise ValueError("涓婅瘉鎸囨暟鏁版嵁涓虹┖")
+            raise ValueError("SH index data is empty")
 
         date_str = target_date.strftime("%Y-%m-%d")
-        row = df[df['date'] == target_date] if hasattr(df['date'].iloc[0], 'strftime') else df[df['date'].astype(str) == date_str]
+        row = None
+        if "date" in df.columns:
+            df_date = df["date"]
+            if hasattr(df_date.iloc[0], "strftime"):
+                row = df[df["date"] == target_date]
+            else:
+                row = df[df["date"].astype(str) == date_str]
 
-        if len(row) == 0:
-            raise ValueError(f"鏈壘鍒?{date_str} 鐨勪笂璇佹寚鏁版暟鎹?)
+        if row is None or len(row) == 0:
+            raise ValueError("SH index data not found for " + date_str)
 
-        close_price = float(row.iloc[0]['close'])
-        open_price = float(row.iloc[0]['open'])
+        close_price = float(row.iloc[0]["close"])
+        open_price = float(row.iloc[0]["open"])
 
-        # 璁＄畻娑ㄨ穼骞咃細鎵惧墠涓€鏃ユ敹鐩?        all_dates = sorted(df['date'].tolist())
-        idx = all_dates.index(target_date) if target_date in all_dates else -1
-        if idx > 0:
-            prev_row = df[df['date'] == all_dates[idx - 1]]
-            prev_close = float(prev_row.iloc[0]['close'])
-            change_pct = round((close_price - prev_close) / prev_close * 100, 2)
+        if "date" in df.columns:
+            all_dates = sorted(df["date"].tolist())
+            target_dt = target_date if hasattr(all_dates[0], "strftime") else date_str
+            if target_dt in all_dates:
+                idx = all_dates.index(target_dt)
+                if idx > 0:
+                    prev_date = all_dates[idx - 1]
+                    if hasattr(prev_date, "strftime"):
+                        prev_row = df[df["date"] == prev_date]
+                    else:
+                        prev_row = df[df["date"].astype(str) == prev_date]
+                    prev_close = float(prev_row.iloc[0]["close"])
+                    change_pct = round((close_price - prev_close) / prev_close * 100, 2)
+                else:
+                    change_pct = round((close_price - open_price) / open_price * 100, 2)
+            else:
+                change_pct = round((close_price - open_price) / open_price * 100, 2)
         else:
             change_pct = round((close_price - open_price) / open_price * 100, 2)
 
         return {
-            "index_name": "涓婅瘉鎸囨暟",
+            "index_name": "Shanghai Composite",
             "price": round(close_price, 2),
             "change_pct": change_pct,
-            "source": "鏂版氮鎺ュ彛",
+            "source": "Sina API",
         }
     except Exception as e:
-        print(f"  涓婅瘉鎸囨暟鑾峰彇澶辫触: {e}")
+        print(f"  SH index fetch failed: {e}")
         return None
 
 def fetch_limit_data(target_date):
-    """鑾峰彇娑ㄥ仠/璺屽仠鏁版嵁 + 琛屼笟缁熻"""
+    """Fetch limit-up/limit-down data + industry stats"""
     date_str = target_date.strftime("%Y%m%d")
     limit_up = 0
     limit_down = 0
     industry_top = []
 
-    # 娑ㄥ仠鏉?    try:
+    try:
         zt_df = ak.stock_zt_pool_em(date=date_str)
         limit_up = len(zt_df)
-        ind_counts = zt_df['鎵€灞炶涓?].value_counts().head(5)
-        industry_top = [{"name": k, "count": int(v)} for k, v in ind_counts.items()]
+        ind_col = None
+        for col in zt_df.columns:
+            col_lower = str(col).lower()
+            if any(kw in col_lower for kw in ["industry", "trade", "sector"]):
+                ind_col = col
+                break
+        if ind_col is None and len(zt_df.columns) > 1:
+            ind_col = zt_df.columns[1]
+        if ind_col:
+            ind_counts = zt_df[ind_col].value_counts().head(5)
+            industry_top = [{"name": str(k), "count": int(v)} for k, v in ind_counts.items()]
     except Exception as e:
-        print(f"  娑ㄥ仠鏁版嵁鑾峰彇澶辫触: {e}")
+        print(f"  Limit-up data fetch failed: {e}")
 
-    # 璺屽仠鏉?    try:
+    try:
         dt_df = ak.stock_zt_pool_dtgc_em(date=date_str)
         limit_down = len(dt_df)
     except Exception as e:
-        print(f"  璺屽仠鏁版嵁鑾峰彇澶辫触: {e}")
+        print(f"  Limit-down data fetch failed: {e}")
 
     return {
         "limit_up": limit_up,
@@ -128,9 +147,8 @@ def fetch_limit_data(target_date):
     }
 
 def generate_summary(sh_data, limit_data):
-    """鐢熸垚浠婃棩鎬荤粨"""
     if not sh_data:
-        return "鏁版嵁鑾峰彇涓?.."
+        return "Data unavailable..."
 
     change_pct = sh_data["change_pct"]
     limit_up = limit_data["limit_up"]
@@ -139,31 +157,30 @@ def generate_summary(sh_data, limit_data):
 
     parts = []
     if change_pct > 2:
-        parts.append(f"浠婃棩澶х洏澶ф定 {change_pct:+.2f}%")
+        parts.append(f"Market surged {change_pct:+.2f}%")
     elif change_pct > 0.5:
-        parts.append(f"浠婃棩澶х洏娓╁拰涓婃定 {change_pct:+.2f}%")
+        parts.append(f"Market rose {change_pct:+.2f}%")
     elif change_pct >= -0.5:
-        parts.append(f"浠婃棩澶х洏绐勫箙闇囪崱 {change_pct:+.2f}%")
+        parts.append(f"Market flat {change_pct:+.2f}%")
     elif change_pct >= -2:
-        parts.append(f"浠婃棩澶х洏灏忓箙鍥炶皟 {change_pct:+.2f}%")
+        parts.append(f"Market dipped {change_pct:+.2f}%")
     else:
-        parts.append(f"浠婃棩澶х洏澶у箙涓嬭穼 {change_pct:+.2f}%")
+        parts.append(f"Market plunged {change_pct:+.2f}%")
 
-    parts.append(f"娑ㄥ仠{limit_up}瀹讹紝璺屽仠{limit_down}瀹?)
+    parts.append(f"Limit-up: {limit_up}, limit-down: {limit_down}")
 
     if industry_top:
-        parts.append(f"棰嗘定鏉垮潡涓簕industry_top[0]['name']}")
+        parts.append(f"Leading sector: {industry_top[0]['name']}")
 
-    return "锛?.join(parts) + "銆?
+    return ". ".join(parts) + "."
 
-# ===================== 鏁版嵁淇濆瓨 =====================
 def save_daily_data(trade_date, data):
     os.makedirs(DATA_DIR, exist_ok=True)
     filename = trade_date.strftime("%Y-%m-%d") + ".json"
     filepath = os.path.join(DATA_DIR, filename)
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"  宸蹭繚瀛樺埌: {filepath}")
+    print(f"  Saved to: {filepath}")
 
 def update_history(data):
     history = []
@@ -192,33 +209,31 @@ def update_history(data):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
 
-    print(f"  history.json 宸叉洿鏂帮紝鍏?{len(history)} 澶╂暟鎹?)
+    print(f"  history.json updated, {len(history)} days")
 
-# ===================== 涓绘祦绋?=====================
 def fetch_and_save(trade_date=None, silent=False):
     if trade_date is None:
         trade_date = date.today()
 
     if not is_trade_day(trade_date):
         if not silent:
-            print(f"{trade_date} 闈炰氦鏄撴棩锛堝懆鏈垨鑺傚亣鏃ワ級锛岃烦杩囥€?)
-        return {"status": "holiday", "date": trade_date.strftime("%Y-%m-%d"), "message": "闈炰氦鏄撴棩"}
+            print(f"{trade_date} is not a trading day (weekend/holiday), skipping.")
+        return {"status": "holiday", "date": trade_date.strftime("%Y-%m-%d"), "message": "Non-trading day"}
 
-    print(f"姝ｅ湪閲囬泦 {trade_date} 鏁版嵁...")
+    print(f"Fetching data for {trade_date}...")
 
     try:
         sh_data = fetch_sh_index(trade_date)
         limit_data = fetch_limit_data(trade_date)
 
         if not sh_data:
-            print("  涓婅瘉鎸囨暟鏁版嵁鑾峰彇澶辫触锛岃烦杩?)
-            return {"status": "error", "date": trade_date.strftime("%Y-%m-%d"), "message": "涓婅瘉鎸囨暟鏁版嵁缂哄け"}
+            print("  SH index data unavailable, skipping.")
+            return {"status": "error", "date": trade_date.strftime("%Y-%m-%d"), "message": "Missing SH index data"}
 
-        # 娑ㄨ穼瀹舵暟浼扮畻
         total_stocks = 5525
         change_pct = sh_data["change_pct"]
-        limit_up = limit_data["limit_up"]
-        limit_down = limit_data["limit_down"]
+        limit_up = limit_data.get("limit_up", 0)
+        limit_down = limit_data.get("limit_down", 0)
 
         if change_pct > 1:
             up_ratio = 0.55 + min(change_pct / 100, 0.3)
@@ -232,17 +247,16 @@ def fetch_and_save(trade_date=None, silent=False):
         up_count = int(total_stocks * up_ratio)
         down_count = total_stocks - up_count - 100
 
-        # 鎯呯华璁＄畻
         sh_emotion = calc_emotion(up_count, down_count)
-        sector_breadth = len(limit_data["industry_top"])
+        sector_breadth = len(limit_data.get("industry_top", []))
         sector_emotion = min(100, sector_breadth * 20) if sector_breadth <= 5 else 100
 
-        # 鐢熸垚鎬荤粨
         summary = generate_summary(sh_data, limit_data)
 
+        day_names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
         result = {
             "date": trade_date.strftime("%Y-%m-%d"),
-            "day_of_week": ["鍛ㄤ竴", "鍛ㄤ簩", "鍛ㄤ笁", "鍛ㄥ洓", "鍛ㄤ簲", "鍛ㄥ叚", "鍛ㄦ棩"][trade_date.weekday()],
+            "day_of_week": day_names[trade_date.weekday()],
             "status": "success",
             "sh_index": {
                 "index_name": sh_data["index_name"],
@@ -257,33 +271,32 @@ def fetch_and_save(trade_date=None, silent=False):
                 "up_count": sector_breadth * 7,
                 "down_count": 86 - sector_breadth * 7,
                 "emotion": sector_emotion,
-                "top5": limit_data["industry_top"],
+                "top5": limit_data.get("industry_top", []),
             },
             "limit": {
                 "limit_up": limit_up,
                 "limit_down": limit_down,
             },
             "summary": summary,
-            "_data_source": "鏂版氮鎸囨暟+涓滄柟璐㈠瘜娑ㄥ仠鏉緼PI锛堢湡瀹炴暟鎹級",
-            "_note": "娑ㄥ仠/璺屽仠/鎸囨暟/棰嗘定鏉垮潡涓虹湡瀹濧PI鏁版嵁锛涙定璺屽鏁颁负鍩轰簬娑ㄥ仠璺屽仠姣?鎸囨暟娑ㄨ穼骞呯殑鍚堢悊浼扮畻",
+            "_data_source": "Sina Index + EastMoney limit-up/down API",
+            "_note": "Limit-up/down/index/leading-sector from real API; up/down counts are estimates",
             "fetch_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         }
 
         save_daily_data(trade_date, result)
         update_history(result)
 
-        print(f"  閲囬泦瀹屾垚锛佸ぇ鐩樻儏缁? {sh_emotion}, 鏉垮潡鎯呯华: {sector_emotion}, 娑ㄥ仠: {limit_up}, 璺屽仠: {limit_down}")
+        print(f"  Done. Market: {sh_emotion}, Sector: {sector_emotion}, LU: {limit_up}, LD: {limit_down}")
         return result
 
     except Exception as e:
-        print(f"  閲囬泦澶辫触: {e}")
+        print(f"  Fetch failed: {e}")
         import traceback
         traceback.print_exc()
         return {"status": "error", "date": trade_date.strftime("%Y-%m-%d"), "message": str(e)}
 
 def fetch_history(days=15):
-    """鑾峰彇鏈€杩慛涓氦鏄撴棩鏁版嵁"""
-    print(f"\n========== 鎵归噺鑾峰彇鏈€杩?{days} 涓氦鏄撴棩鏁版嵁 ==========")
+    print(f"\n========== Batch fetch last {days} trading days ==========")
     trade_dates = []
     current = date.today()
 
@@ -302,7 +315,7 @@ def fetch_history(days=15):
             break
 
     trade_dates.sort()
-    print(f"鎵惧埌 {len(trade_dates)} 涓氦鏄撴棩")
+    print(f"Found {len(trade_dates)} trading days")
 
     success_count = 0
     for i, td in enumerate(trade_dates):
@@ -313,9 +326,8 @@ def fetch_history(days=15):
         if i < len(trade_dates) - 1:
             time.sleep(2)
 
-    print(f"\n========== 瀹屾垚! 鎴愬姛 {success_count}/{len(trade_dates)} ==========")
+    print(f"\n========== Done! Success: {success_count}/{len(trade_dates)} ==========")
 
-# ===================== 鍏ュ彛 =====================
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--history":
         days = int(sys.argv[2]) if len(sys.argv) > 2 else 15
