@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>A鑲℃儏缁华琛ㄧ洏</title>
+<title>A股情绪仪表盘</title>
 <style>
 /* ========== Reset & Base ========== */
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -18,7 +18,7 @@ body {
   color: #5D4037;
 }
 
-/* ========== 浜戞湹瑁呴グ ========== */
+/* ========== 云朵装饰 ========== */
 .cloud {
   position: fixed;
   background: rgba(255,255,255,0.7);
@@ -171,7 +171,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* ========== Gauge Card (鎯呯华鍦嗙幆) ========== */
+/* ========== Gauge Card (情绪圆环) ========== */
 .gauge-container {
   position: relative;
   width: 130px; height: 130px;
@@ -358,33 +358,33 @@ body {
 <div class="container">
   <!-- Header -->
   <div class="header">
-    <h1>A鑲℃儏缁华琛ㄧ洏</h1>
-    <div class="subtitle">姣忓ぉ鏀剁洏鍚庤嚜鍔ㄦ洿鏂帮紝鎰熺煡甯傚満鍐锋殩</div>
+    <h1>A股情绪仪表盘</h1>
+    <div class="subtitle">每天收盘后自动更新，感知市场冷暖</div>
   </div>
 
   <!-- Date Selector -->
   <div class="date-selector">
-    <button class="date-nav-btn" onclick="navigateDate(-1)" title="鍓嶄竴澶?>&#9664;</button>
+    <button class="date-nav-btn" onclick="navigateDate(-1)" title="Previous day">&lt;&lt;</button>
     <select id="dateSelect" onchange="onDateChange()"></select>
-    <button class="date-nav-btn" onclick="navigateDate(1)" title="鍚庝竴澶?>&#9654;</button>
+    <button class="date-nav-btn" onclick="navigateDate(1)" title="Next day">&gt;&gt;</button>
   </div>
 
   <!-- Content Area -->
   <div id="contentArea">
     <div class="loading-state">
       <div class="loading-spinner"></div>
-      <p>姝ｅ湪鍔犺浇鏁版嵁...</p>
+      <p>正在加载数据...</p>
     </div>
   </div>
 
   <!-- Footer -->
   <div class="footer">
-    鏁版嵁鏉ユ簮锛氫笢鏂硅储瀵? |  瀹氭椂鏇存柊锛氭瘡涓氦鏄撴棩涓嬪崍3:30
+    数据来源：东方财富  |  定时更新：每个交易日下午3:30
   </div>
 </div>
 
 <script>
-// ==================== 鏁版嵁绠＄悊 ====================
+// ==================== 数据管理 ====================
 let historyData = [];
 let currentIndex = 0;
 
@@ -394,7 +394,7 @@ async function loadHistory() {
     if (!resp.ok) throw new Error('history.json not found');
     historyData = await resp.json();
   } catch (e) {
-    console.warn('鏃犳硶璇诲彇 history.json锛岃閫氳繃 start.bat 鍚姩鏈湴鏈嶅姟鍣?);
+    console.warn('history.json load failed, try start.bat');
     historyData = [];
   }
   return historyData;
@@ -405,7 +405,7 @@ function buildDateSelector() {
   select.innerHTML = '';
 
   if (historyData.length === 0) {
-    select.innerHTML = '<option value="">鏆傛棤鏁版嵁</option>';
+    select.innerHTML = '<option value="">暂无数据</option>';
     return;
   }
 
@@ -435,11 +435,11 @@ function navigateDate(dir) {
   render();
 }
 
-// ==================== 娓叉煋 ====================
+// ==================== 渲染 ====================
 function getEmotionColor(val) {
-  if (val >= 60) return { stroke: '#43A047', text: '#2E7D32', bg: '#E8F5E9', label: '涔愯' };
-  if (val >= 40) return { stroke: '#FFA000', text: '#E65100', bg: '#FFF8E1', label: '涓€? };
-  return { stroke: '#E53935', text: '#B71C1C', bg: '#FFEBEE', label: '鎮茶' };
+  if (val >= 60) return { stroke: '#43A047', text: '#2E7D32', bg: '#E8F5E9', label: '乐观' };
+  if (val >= 40) return { stroke: '#FFA000', text: '#E65100', bg: '#FFF8E1', label: '中性' };
+  return { stroke: '#E53935', text: '#B71C1C', bg: '#FFEBEE', label: '悲观' };
 }
 
 function renderGauge(containerId, value) {
@@ -470,7 +470,7 @@ function render() {
     document.getElementById('contentArea').innerHTML = `
       <div class="empty-state">
         <div class="empty-icon">&#128022;</div>
-        <p>杩樻病鏈夋暟鎹摝锛岃绛夊緟鏀剁洏鍚庤嚜鍔ㄦ洿鏂皛</p>
+        <p>还没有数据哦，请等待收盘后自动更新~</p>
       </div>
     `;
     return;
@@ -481,7 +481,7 @@ function render() {
     document.getElementById('contentArea').innerHTML = `
       <div class="empty-state">
         <div class="empty-icon">&#128164;</div>
-        <p>${data && data.status === 'holiday' ? '璇ユ棩涓洪潪浜ゆ槗鏃ワ紙浼戝競锛? : '绛夊緟鏀剁洏鏇存柊...'}</p>
+        <p>${data && data.status === 'holiday' ? '该日为非交易日（休市）' : '等待收盘更新...'}</p>
       </div>
     `;
     return;
@@ -494,9 +494,9 @@ function render() {
 
   let html = '';
 
-  // 濡傛灉鏄粖澶╃洏涓笖鏁版嵁涓虹┖
+  // 如果是今天盘中且数据为空
   if (isToday && !sh.emotion && !sector.emotion) {
-    html = `<div class="empty-state"><div class="empty-icon">&#9200;</div><p>绛夊緟鏀剁洏鏇存柊...</p></div>`;
+    html = `<div class="empty-state"><div class="empty-icon">&#9200;</div><p>等待收盘更新...</p></div>`;
     document.getElementById('contentArea').innerHTML = html;
     return;
   }
@@ -504,50 +504,50 @@ function render() {
   // Cards Grid
   html += '<div class="cards-grid">';
 
-  // 澶х洏鎯呯华
+  // 大盘情绪
   html += '<div class="card"><div class="card-icon">&#127758;</div>';
-  html += `<div class="card-title">澶х洏鎯呯华</div>`;
+  html += `<div class="card-title">大盘情绪</div>`;
   html += `<div id="gauge-sh" style="min-height:150px"></div>`;
   html += `<div style="font-size:0.8em;color:#BCAAA4;margin-top:6px">`;
-  html += `涓婅瘉 ${sh.price || '--'}  ${(sh.change_pct||0) >= 0 ? '<span class="up">' : '<span class="down">'}${(sh.change_pct||0)>=0?'+':''}${sh.change_pct!=null?sh.change_pct.toFixed(2):'--'}%</span>`;
+  html += `上证 ${sh.price || '--'}  ${(sh.change_pct||0) >= 0 ? '<span class="up">' : '<span class="down">'}${(sh.change_pct||0)>=0?'+':''}${sh.change_pct!=null?sh.change_pct.toFixed(2):'--'}%</span>`;
   html += `</div></div>`;
 
-  // 鏉垮潡鎯呯华
+  // 板块情绪
   html += '<div class="card"><div class="card-icon">&#127891;</div>';
-  html += `<div class="card-title">鏉垮潡鎯呯华</div>`;
+  html += `<div class="card-title">板块情绪</div>`;
   html += `<div id="gauge-sector" style="min-height:150px"></div>`;
   html += `<div style="font-size:0.8em;color:#BCAAA4;margin-top:6px">`;
-  html += `涓婃定 ${sector.up_count||0} / 涓嬭穼 ${sector.down_count||0}`;
+  html += `上涨 ${sector.up_count||0} / 下跌 ${sector.down_count||0}`;
   html += `</div></div>`;
 
-  // 娑ㄥ仠瀹舵暟
+  // 涨停家数
   html += '<div class="card"><div class="card-icon">&#128200;</div>';
-  html += `<div class="card-title">娑ㄥ仠瀹舵暟</div>`;
+  html += `<div class="card-title">涨停家数</div>`;
   html += `<div class="big-number up">${limit.limit_up || 0}</div>`;
-  html += `<div class="big-number-label">鍙?/div></div>`;
+  html += `<div class="big-number-label">只</div></div>`;
 
-  // 璺屽仠瀹舵暟
+  // 跌停家数
   html += '<div class="card"><div class="card-icon">&#128201;</div>';
-  html += `<div class="card-title">璺屽仠瀹舵暟</div>`;
+  html += `<div class="card-title">跌停家数</div>`;
   html += `<div class="big-number down">${limit.limit_down || 0}</div>`;
-  html += `<div class="big-number-label">鍙?/div></div>`;
+  html += `<div class="big-number-label">只</div></div>`;
 
   html += '</div>'; // cards-grid
 
-  // 棰嗘定鏉垮潡
-  html += '<div class="section-title">棰嗘定鏉垮潡 TOP 5</div>';
+  // 领涨板块
+  html += '<div class="section-title">领涨板块 TOP 5</div>';
   html += '<div class="sector-card"><table class="sector-table"><thead><tr>';
-  html += '<th>鎺掑悕</th><th>鏉垮潡</th><th>娑ㄥ仠瀹舵暟</th>';
+  html += '<th>排名</th><th>板块</th><th>涨停家数</th>';
   html += '</tr></thead><tbody>';
 
   const top5 = sector.top5 || [];
   if (top5.length === 0) {
-    html += '<tr><td colspan="3" style="text-align:center;color:#BCAAA4">鏆傛棤鏁版嵁</td></tr>';
+    html += '<tr><td colspan="3" style="text-align:center;color:#BCAAA4">暂无数据</td></tr>';
   } else {
     top5.forEach((s, i) => {
       const rankCls = `rank-${i+1}`;
-      // 鏀寔鏂版棫涓ょ鏍煎紡锛氭柊鏍煎紡鏈?count锛屾棫鏍煎紡鏈?change_pct
-      const countDisplay = s.count ? `${s.count}鍙猔 : (s.change_pct != null ? `${s.change_pct>=0?'+':''}${s.change_pct.toFixed(2)}%` : '--');
+      // 支持新旧两种格式：新格式有 count，旧格式有 change_pct
+      const countDisplay = s.count ? `${s.count}只` : (s.change_pct != null ? `${s.change_pct>=0?'+':''}${s.change_pct.toFixed(2)}%` : '--');
       html += `<tr>`;
       html += `<td><span class="sector-rank ${rankCls}">${i+1}</span></td>`;
       html += `<td>${s.name}</td>`;
@@ -557,23 +557,24 @@ function render() {
   }
   html += '</tbody></table></div>';
 
-  // 浠婃棩鎬荤粨
-  html += '<div class="section-title">浠婃棩鎬荤粨</div>';
+  // 今日总结
+  html += '<div class="section-title">今日总结</div>';
   html += '<div class="summary-card">';
   html += '<div class="summary-bubble">';
-  html += data.summary || '鏆傛棤鎬荤粨';
+  html += data.summary || '暂无总结';
   html += '<span class="summary-icon">&#128054;</span>';
   html += '</div></div>';
 
   document.getElementById('contentArea').innerHTML = html;
 
-  // 娓叉煋浠〃鐩?  setTimeout(() => {
+  // 渲染仪表盘
+  setTimeout(() => {
     renderGauge('gauge-sh', sh.emotion || 50);
     renderGauge('gauge-sector', sector.emotion || 50);
   }, 100);
 }
 
-// ==================== 鍒濆鍖?====================
+// ==================== 初始化 ====================
 async function init() {
   await loadHistory();
   buildDateSelector();
