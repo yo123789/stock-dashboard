@@ -1,0 +1,508 @@
+{
+  "timestamp": "2026-06-02 17:07:35",
+  "date": "2026-06-02",
+  "market": {
+    "price": 0,
+    "change_pct": 0,
+    "volume": 0
+  },
+  "emotion": {
+    "score": 100,
+    "phase": "ä¸»åæµªã»å¼ºä¸è´",
+    "position": "8-10æ",
+    "detail": {
+      "blast_rate": 23.9,
+      "prev_connect_pct": 0.0,
+      "noodle_count": 0,
+      "promotion_rate": 0,
+      "zt_count": 67,
+      "dt_count": 16,
+      "zb_count": 21,
+      "lb_count": 162
+    }
+  },
+  "core": {
+    "blast_rate": 23.9,
+    "prev_connect_pct": 0.0,
+    "noodle_count": 0,
+    "promotion_rate": 0
+  },
+  "ladder": {
+    "max_board": 0,
+    "stocks": []
+  },
+  "limits": {
+    "total_up": 67,
+    "total_down": 16,
+    "up_20cm": 0,
+    "down_20cm": 0,
+    "up_main_force": 0,
+    "down_high": 16
+  },
+  "sectors": {
+    "top5": [
+      {
+        "name": "39",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      },
+      {
+        "name": "81",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      },
+      {
+        "name": "73",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      },
+      {
+        "name": "83",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      },
+      {
+        "name": "4",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      }
+    ],
+    "bottom3": [
+      {
+        "name": "42",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      },
+      {
+        "name": "31",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      },
+      {
+        "name": "43",
+        "change_pct": 0,
+        "up_count": 0,
+        "down_count": 0,
+        "leader": "",
+        "leader_pct": 0
+      }
+    ]
+  },
+  "north_flow": 0,
+  "dragon_tiger": [
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    },
+    {
+      "code": "",
+      "name": "",
+      "change_pct": 0.0,
+      "buy": 0.0,
+      "sell": 0.0,
+      "reason": ""
+    }
+  ],
+  "events": [
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "blast",
+      "msg": " ç¸æ¿"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    },
+    {
+      "time": "17:07",
+      "type": "limit_down",
+      "msg": " è·å"
+    }
+  ],
+  "history_emotion": []
+}
