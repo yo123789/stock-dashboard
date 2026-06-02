@@ -1,34 +1,24 @@
-name: Stock Data Auto Update
+name: Stock Data Auto Update (v5)
 
 on:
   schedule:
-    - cron: "0 8 * * 1-5"
+    - cron: '*/5 1-7 * * 1-5'
   workflow_dispatch:
 
 jobs:
-  update-data:
+  update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
-      - name: Install Dependencies
-        run: |
-          pip install akshare pandas
-
-      - name: Fetch Data
-        run: |
-          python data_fetcher.py
-
-      - name: Commit Updates
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add history.json data/
-          git diff --staged --quiet || git commit -m "Auto update stock data $(date +%Y-%m-%d)"
-          git push
+          python-version: '3.11'
+      - run: pip install akshare pandas
+      - run: python data_fetcher_v5.py
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add dashboard_data.json history_v5.json events_snapshot.json events_snapshot_all.json index_v5.html
+          git diff --staged --quiet || (git commit -m "Auto update v5 [skip ci]" && git push)
