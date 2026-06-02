@@ -46,6 +46,6 @@
     "summary": "大盘窄幅震荡 0.43%，涨停67家，跌停16家，领涨板块：通信设备。",
     "_data_source": "Sina Index + EastMoney limit-up/down API",
     "_note": "Real API data for limit-up/down/index/leading-sector",
-    "fetch_time": "2026-06-02 15:49:39"
+    "fetch_time": "2026-06-02 15:57:19"
   }
 ]
