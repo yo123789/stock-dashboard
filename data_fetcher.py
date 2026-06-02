@@ -131,25 +131,25 @@ def fetch_limit_data(target_date):
 
 def generate_summary(sh_data, limit_data):
     if not sh_data:
-        return "Data loading..."
+        return "数据加载中..."
     change_pct = sh_data["change_pct"]
     limit_up = limit_data["limit_up"]
     limit_down = limit_data["limit_down"]
     industry_top = limit_data["industry_top"]
     if change_pct > 2:
-        desc = f"Market surged {change_pct:+.2f}%"
+        desc = "大盘大涨 {:.2f}%".format(change_pct)
     elif change_pct > 0.5:
-        desc = f"Market rose moderately {change_pct:+.2f}%"
+        desc = "大盘温和上涨 {:.2f}%".format(change_pct)
     elif change_pct >= -0.5:
-        desc = f"Market fluctuated narrowly {change_pct:+.2f}%"
+        desc = "大盘窄幅震荡 {:.2f}%".format(change_pct)
     elif change_pct >= -2:
-        desc = f"Market dipped slightly {change_pct:+.2f}%"
+        desc = "大盘小幅回调 {:.2f}%".format(change_pct)
     else:
-        desc = f"Market dropped sharply {change_pct:+.2f}%"
-    parts = [desc, f"Limit-up: {limit_up}, limit-down: {limit_down}"]
+        desc = "大盘大幅下跌 {:.2f}%".format(change_pct)
+    parts = [desc, "涨停{}家，跌停{}家".format(limit_up, limit_down)]
     if industry_top:
-        parts.append(f"Leading sector: {industry_top[0]['name']}")
-    return ". ".join(parts) + "."
+        parts.append("领涨板块：{}".format(industry_top[0]['name']))
+    return "，".join(parts) + "。"
 
 
 # ==================== Data Persistence ====================
