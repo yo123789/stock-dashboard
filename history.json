@@ -46,6 +46,6 @@
     "summary": "Market fluctuated narrowly +0.43%. Limit-up: 67, limit-down: 16. Leading sector: 通信设备.",
     "_data_source": "Sina Index + EastMoney limit-up/down API",
     "_note": "Real API data for limit-up/down/index/leading-sector",
-    "fetch_time": "2026-06-02 15:14:12"
+    "fetch_time": "2026-06-02 15:38:44"
   }
 ]
