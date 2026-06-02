@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-02",
+  "day_of_week": "Tue",
+  "status": "success",
+  "sh_index": {
+    "index_name": "Shanghai Composite",
+    "price": 4075.1,
+    "change_pct": 0.43,
+    "up_count": 2818,
+    "down_count": 2607,
+    "emotion": 51
+  },
+  "sector": {
+    "total": 90,
+    "up_count": 35,
+    "down_count": 51,
+    "emotion": 100,
+    "top5": [
+      {
+        "name": "603890",
+        "count": 1
+      },
+      {
+        "name": "600403",
+        "count": 1
+      },
+      {
+        "name": "001210",
+        "count": 1
+      },
+      {
+        "name": "002896",
+        "count": 1
+      },
+      {
+        "name": "600696",
+        "count": 1
+      }
+    ]
+  },
+  "limit": {
+    "limit_up": 67,
+    "limit_down": 16
+  },
+  "summary": "Market flat +0.43%. Limit-up: 67, limit-down: 16. Leading sector: 603890.",
+  "_data_source": "Sina Index + EastMoney limit-up/down API",
+  "_note": "Limit-up/down/index/leading-sector from real API; up/down counts are estimates",
+  "fetch_time": "2026-06-02 13:46:50"
+}
