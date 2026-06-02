@@ -182,7 +182,6 @@ def update_history(data):
     else:
         history.insert(0, data)
     history.sort(key=lambda x: x.get("date", ""), reverse=True)
-    history = history[:15]
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
     print(f"  history.json updated ({len(history)} days)")
