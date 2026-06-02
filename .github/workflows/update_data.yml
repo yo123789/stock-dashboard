@@ -1,0 +1,36 @@
+name: æ¯æ¥è¡ææ°æ®æ´æ°
+
+on:
+  schedule:
+    # åäº¬æ¶é´æ¯ä¸ªäº¤ææ¥ä¸å16:00ï¼UTC 8:00ï¼
+    - cron: '0 8 * * 1-5'
+  workflow_dispatch:  # åè®¸æå¨è§¦å
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: æ£åºä»£ç 
+        uses: actions/checkout@v4
+
+      - name: å®è£ Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: å®è£ä¾èµ
+        run: |
+          pip install akshare pandas
+
+      - name: è¿è¡æ°æ®éé
+        run: |
+          python data_fetcher.py
+
+      - name: æäº¤æ´æ°
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history.json data/
+          git diff --staged --quiet || git commit -m "ð èªå¨æ´æ°è¡ææ°æ® $(date +%Y-%m-%d)"
+          git push
+
