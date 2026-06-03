@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03 00:32:09",
+  "timestamp": "2026-06-03 00:43:24",
   "date": "2026-06-03",
   "market": {
     "price": 4075.1,
@@ -1664,463 +1664,222 @@
     "top5": [
       {
         "name": "元件",
-        "change_pct": 30.0,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
+        "change_pct": 3.86,
+        "count_up": 45,
+        "count_down": 15,
+        "leader": "胜业电气",
+        "leader_pct": 30.0
       },
       {
-        "name": "通用设备",
-        "change_pct": 30.0,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
+        "name": "贵金属",
+        "change_pct": 3.02,
+        "count_up": 13,
+        "count_down": 0,
+        "leader": "兴业银锡",
+        "leader_pct": 8.26
+      },
+      {
+        "name": "小金属",
+        "change_pct": 2.81,
+        "count_up": 24,
+        "count_down": 5,
+        "leader": "宜安科技",
+        "leader_pct": 11.34
       },
       {
         "name": "非金属材料",
-        "change_pct": 20.87,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
+        "change_pct": 2.69,
+        "count_up": 9,
+        "count_down": 4,
+        "leader": "天马新材",
+        "leader_pct": 20.87
       },
       {
-        "name": "环境治理",
-        "change_pct": 20.21,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
-      },
-      {
-        "name": "自动化设备",
-        "change_pct": 20.02,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
+        "name": "通信设备",
+        "change_pct": 2.62,
+        "count_up": 55,
+        "count_down": 35,
+        "leader": "阿莱德",
+        "leader_pct": 20.0
       }
     ],
     "bottom3": [
       {
-        "name": "保险",
-        "change_pct": 0.43,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
-      },
-      {
-        "name": "机场航运",
-        "change_pct": -0.06,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
+        "name": "文化传媒",
+        "change_pct": -2.78,
+        "count_up": 7,
+        "count_down": 78,
+        "leader": "世纪天鸿",
+        "leader_pct": 9.45
       },
       {
         "name": "游戏",
-        "change_pct": -0.5,
-        "up_count": 0,
-        "down_count": 0,
-        "leader": "",
-        "leader_pct": 0
+        "change_pct": -2.79,
+        "count_up": 0,
+        "count_down": 24,
+        "leader": "*ST大晟",
+        "leader_pct": -0.5
+      },
+      {
+        "name": "影视院线",
+        "change_pct": -4.34,
+        "count_up": 1,
+        "count_down": 19,
+        "leader": "北京文化",
+        "leader_pct": 2.52
       }
     ]
   },
   "north_flow": 0,
-  "dragon_tiger": [
-    {
-      "code": "000021",
-      "name": "深科技",
-      "change_pct": 9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000021",
-      "name": "深科技",
-      "change_pct": 9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000021",
-      "name": "深科技",
-      "change_pct": 9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "000032",
-      "name": "深桑达A",
-      "change_pct": 10.0,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000063",
-      "name": "中兴通讯",
-      "change_pct": 9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000065",
-      "name": "北方国际",
-      "change_pct": 10.01,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000066",
-      "name": "中国长城",
-      "change_pct": 10.02,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000150",
-      "name": "*ST宜康",
-      "change_pct": -5.26,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "连续三个交易日内，跌幅偏离值累计达到12%的ST证券、*ST证券和未完成股改证券"
-    },
-    {
-      "code": "000158",
-      "name": "常山北明",
-      "change_pct": -10.04,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000409",
-      "name": "云鼎科技",
-      "change_pct": -7.82,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000416",
-      "name": "*ST民控",
-      "change_pct": -10.03,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000506",
-      "name": "招金黄金",
-      "change_pct": 9.98,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000506",
-      "name": "招金黄金",
-      "change_pct": -6.26,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000516",
-      "name": "国际医学",
-      "change_pct": 10.05,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000539",
-      "name": "粤电力A",
-      "change_pct": -7.85,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000581",
-      "name": "威孚高科",
-      "change_pct": -9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000606",
-      "name": "顺利退",
-      "change_pct": -4.71,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "连续三个交易日内，跌幅偏离值累计达到12%的ST证券、*ST证券和未完成股改证券"
-    },
-    {
-      "code": "000610",
-      "name": "*ST西旅",
-      "change_pct": -2.71,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "000610",
-      "name": "*ST西旅",
-      "change_pct": 10.03,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "000610",
-      "name": "*ST西旅",
-      "change_pct": 10.03,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000610",
-      "name": "*ST西旅",
-      "change_pct": 5.68,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "000610",
-      "name": "*ST西旅",
-      "change_pct": -1.31,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "000615",
-      "name": "*ST美谷",
-      "change_pct": -10.0,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000681",
-      "name": "视觉中国",
-      "change_pct": 9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000681",
-      "name": "视觉中国",
-      "change_pct": 9.99,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "000681",
-      "name": "视觉中国",
-      "change_pct": 9.97,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000710",
-      "name": "贝瑞基因",
-      "change_pct": 10.01,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "000715",
-      "name": "中兴商业",
-      "change_pct": -8.14,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000721",
-      "name": "西安饮食",
-      "change_pct": 8.2,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "000751",
-      "name": "锌业股份",
-      "change_pct": 9.94,
-      "buy": 0.0,
-      "sell": 0.0,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    }
-  ],
+  "dragon_tiger": [],
   "events": [
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "赛伍技术 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "华塑控股 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "鹏鼎控股 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "星德胜 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "杭电股份 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "裕太微-U 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "宏昌电子 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "兴森科技 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "中天科技 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "洪田股份 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "力源信息 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "麦迪科技 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "宏和科技 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "blast",
       "msg": "声迅股份 炸板"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "退市熊猫 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "退市华嵘 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "金富科技 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "元隆雅图 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "共创草坪 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "交建股份 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "天娱数科 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "热威股份 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "嘉德利 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "退市国化 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "永杉锂业 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "镇海股份 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "舒华体育 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "中体产业 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "再升科技 跌停"
     },
     {
-      "time": "00:32",
+      "time": "00:43",
       "type": "limit_down",
       "msg": "粤 传 媒 跌停"
     }
