@@ -32,7 +32,22 @@ def safe_int(v, default=0):
 
 def fetch_index():
     print("[1/8] 上证指数...")
-    # Try spot first, fallback to daily
+    # Method 1: direct HTTP (fast, single index)
+    try:
+        import requests
+        url = "https://push2.eastmoney.com/api/qt/stock/get?secid=1.000001&fields=f43,f44,f45,f46,f47,f48,f50,f51,f52,f57,f58,f60,f107,f168,f169,f170,f171"
+        r = requests.get(url, timeout=10)
+        data = r.json().get("data", {})
+        price = safe_float(data.get("f43", 0)) / 100
+        pct = safe_float(data.get("f170", 0)) / 100
+        vol = safe_float(data.get("f47", 0)) / 1e8
+        if price > 0:
+            print(f"  HTTP spot: {price} ({pct}%)")
+            return {"price": price, "change_pct": pct, "volume": round(vol, 1)}
+    except Exception as e:
+        print(f"  HTTP spot failed: {e}")
+    
+    # Method 2: akshare spot
     try:
         df = ak.stock_zh_index_spot_em()
         sh = df[df['名称'] == '上证指数']
