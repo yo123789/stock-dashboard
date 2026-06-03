@@ -111,6 +111,7 @@ body { background:var(--bg); font-family:-apple-system,BlinkMacSystemFont,'Segoe
   <div>
     <button onclick="toggleTheme()" id="themeBtn">夜间模式</button>
     <button onclick="exportPDF()">导出复盘</button>
+    <button onclick="loadData('latest')" style="padding:6px 12px;border:1px solid var(--border);border-radius:var(--radius);background:var(--card);color:var(--text);font-size:13px;cursor:pointer;">刷新</button>
     <select id="dateSelect" onchange="switchDate()" style="padding:6px 10px;border:1px solid var(--border);border-radius:var(--radius);background:var(--card);color:var(--text);font-size:13px;">
       <option value="latest">最新</option>
     </select>
@@ -211,27 +212,55 @@ body { background:var(--bg); font-family:-apple-system,BlinkMacSystemFont,'Segoe
 // ==================== 数据加载 ====================
 let currentData = null;
 
-async function loadData(date) {
-  const url = date && date !== 'latest' ? `data_v5/${date}.json` : 'dashboard_data.json';
+// raw.githubusercontent.com 绕过 GitHub Pages CDN 缓存
+const RAW_BASE = 'https://raw.githubusercontent.com/yo123789/stock-dashboard/main';
+
+function toBeijingTime(ts) {
+  // ts 格式 '2026-06-03 10:23:10'（已为北京时间，直接返回）
+  // 若为旧格式（UTC），前端兜底转换
+  if (!ts) return '--';
   try {
-    const resp = await fetch(url + '?t=' + Date.now());
+    const m = ts.match(/^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2})$/);
+    if (!m) return ts;
+    // 如果看起来像 UTC（小时<8且日期为当天），加8小时
+    const h = parseInt(m[2]);
+    // 不再做猜测转换，data_fetcher 已输出北京时间，直接显示
+    return ts;
+  } catch(e) { return ts; }
+}
+
+async function loadData(date) {
+  const url = date && date !== 'latest'
+    ? `data_v5/${date}.json`
+    : `${RAW_BASE}/dashboard_data.json`;
+  try {
+    const resp = await fetch(`${url}?_=${Date.now()}`);
     if (!resp.ok) throw new Error('404');
     currentData = await resp.json();
     renderAll();
   } catch(e) {
-    console.warn('Data load failed, trying history:', e);
-    // fallback: load from history
+    console.warn('Data load failed, trying fallback:', e);
     try {
-      const resp2 = await fetch('history_v5.json?t=' + Date.now());
-      const history = await resp2.json();
-      if (date && date !== 'latest') {
-        currentData = history.find(h => h.date === date) || history[0];
-      } else {
-        currentData = history[0];
-      }
-      if (currentData) renderAll();
+      const fbUrl = date && date !== 'latest'
+        ? `data_v5/${date}.json`
+        : 'dashboard_data.json';
+      const resp2 = await fetch(`${fbUrl}?_=${Date.now()}`);
+      if (!resp2.ok) throw new Error('fallback 404');
+      currentData = await resp2.json();
+      renderAll();
     } catch(e2) {
-      document.getElementById('emoScore').textContent = '--';
+      try {
+        const resp3 = await fetch(`history_v5.json?_=${Date.now()}`);
+        const history = await resp3.json();
+        if (date && date !== 'latest') {
+          currentData = history.find(h => h.date === date) || history[0];
+        } else {
+          currentData = history[0];
+        }
+        if (currentData) renderAll();
+      } catch(e3) {
+        document.getElementById('emoScore').textContent = '--';
+      }
     }
   }
 }
@@ -337,8 +366,9 @@ function renderAll() {
     <td>${r.buy}</td><td>${r.sell}</td><td style="font-size:11px;color:var(--text2);">${r.reason}</td></tr>`
   ).join('') || '<tr><td colspan="5" style="text-align:center;color:var(--text2);padding:20px;">暂无龙虎榜数据</td></tr>';
 
-  // 复盘
-  if (d.timestamp && d.timestamp.includes('15:')) {
+  // 复盘（北京时间 15:00 后触发）
+  const bjTime = d.timestamp || '';
+  if (bjTime && (bjTime.includes('15:') || bjTime.includes('16:') || bjTime.includes('17:') || bjTime.includes('18:'))) {
     generateReview(d);
   }
 
@@ -465,7 +495,7 @@ function exportPDF() { window.print(); }
 // 日期切换
 async function loadDates() {
   try {
-    const resp = await fetch('history_v5.json?t=' + Date.now());
+    const resp = await fetch(`${RAW_BASE}/history_v5.json?_=${Date.now()}`);
     const history = await resp.json();
     const sel = document.getElementById('dateSelect');
     history.forEach(h => {
