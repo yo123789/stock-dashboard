@@ -175,7 +175,10 @@ def fetch_dragon_tiger():
     print("[5/8] 龙虎榜...")
     result = []
     try:
-        df = ak.stock_lhb_detail_em()
+        from datetime import datetime, timedelta
+        end = datetime.now().strftime("%Y%m%d")
+        start = (datetime.now() - timedelta(days=5)).strftime("%Y%m%d")
+        df = ak.stock_lhb_detail_em(start_date=start, end_date=end)
         if df is not None and not df.empty:
             # Get latest trading date from data
             if '上榜日' in df.columns:
