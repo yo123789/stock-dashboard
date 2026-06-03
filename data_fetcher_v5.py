@@ -12,7 +12,8 @@ HISTORY_FILE = os.path.join(BASE, "history_v5.json")
 MAX_HISTORY = 60
 
 def now_str():
-    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # GitHub Actions 默认 UTC，需转为北京时间
+    return (datetime.utcnow() + timedelta(hours=8)).strftime("%Y-%m-%d %H:%M:%S")
 
 def today_str():
     return datetime.now().strftime("%Y%m%d")
