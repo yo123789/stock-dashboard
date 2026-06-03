@@ -40,7 +40,7 @@ def fetch_index():
         data = r.json().get("data", {})
         price = safe_float(data.get("f43", 0)) / 100
         pct = safe_float(data.get("f170", 0)) / 100
-        vol = safe_float(data.get("f47", 0)) / 1e8
+        vol = safe_float(data.get("f48", 0)) / 1e8  # f48=成交额(元)
         if price > 0:
             print(f"  HTTP spot: {price} ({pct}%)")
             return {"price": price, "change_pct": pct, "volume": round(vol, 1)}
