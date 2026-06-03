@@ -174,14 +174,15 @@ def fetch_north_flow():
 def fetch_dragon_tiger():
     print("[5/8] 龙虎榜...")
     result = []
-    d = today_str()
     try:
         df = ak.stock_lhb_detail_em()
         if df is not None and not df.empty:
-            # Filter to today's data
+            # Get latest trading date from data
             if '上榜日' in df.columns:
                 df['上榜日'] = df['上榜日'].astype(str)
-                df = df[df['上榜日'] == d]
+                latest_date = df['上榜日'].max()
+                df = df[df['上榜日'] == latest_date]
+                print(f"  Dragon tiger date: {latest_date}")
             for _, r in df.head(30).iterrows():
                 buy_val = safe_float(r.get('龙虎榜买入额', 0))
                 sell_val = safe_float(r.get('龙虎榜卖出额', 0))
@@ -193,7 +194,7 @@ def fetch_dragon_tiger():
                     "sell": round(sell_val / 1e4, 2),
                     "reason": str(r.get('上榜原因', '')),
                 })
-            print(f"  Dragon tiger: {len(result)} entries for {d}")
+            print(f"  Dragon tiger: {len(result)} entries")
     except Exception as e:
         print(f"  Dragon tiger error: {e}")
     return result
