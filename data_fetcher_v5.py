@@ -52,6 +52,17 @@ def fetch_index():
         vol = safe_float(r.get('volume', r.get('成交量', 0))) / 1e8 if safe_float(r.get('volume', 0)) > 1e6 else safe_float(r.get('成交额', 0)) / 1e8
         return {"price": price, "change_pct": pct, "volume": max(round(vol, 1), 0)}
     except:
+        # Last resort: load from history
+        try:
+            if os.path.exists(HISTORY_FILE):
+                with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                    h = json.load(f)
+                if h:
+                    mk = h[0].get("market", {})
+                    if mk.get("price", 0) > 0:
+                        print(f"  Using history market: {mk['price']}")
+                        return mk
+        except: pass
         return {"price": 0, "change_pct": 0, "volume": 0}
 
 def fetch_limit_pools():
@@ -290,13 +301,17 @@ def build_ladder(pools):
     ladder = {}
     for c in pools["continuous"]:
         b = c.get("board", 1)
-        if b < 2: continue
+        # Include all continuous stocks, filter only if high-boards exist
         if b not in ladder:
             ladder[b] = []
         ladder[b].append(c)
+    
+    # If we have board>=2 stocks, only show those; otherwise show all
+    high_keys = [k for k in ladder.keys() if k >= 2]
+    keys = high_keys if high_keys else list(ladder.keys())
 
     result = []
-    for b in sorted(ladder.keys(), reverse=True):
+    for b in sorted(keys, reverse=True):
         for stock in ladder[b]:
             result.append(stock)
     return result
