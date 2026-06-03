@@ -112,38 +112,41 @@ def fetch_sectors():
         print(f"  Sector columns: {cols}")
 
         # Hardware-verified column names for akshare stock_board_industry_summary_ths:
-        # ['序号', '板块', '涨跌幅', ...] or similar
+        # ['序号', '板块', '涨跌幅', '总成交量', '总成交额', '净流入', '上涨家数', '下跌家数', '均价', '领涨股', '领涨股-最新价', '领涨股-涨跌幅']
         name_col = None
         pct_col = None
+        up_col = None
+        down_col = None
+        leader_col = None
+        leader_pct_col = None
+        
         for c in cols:
-            if '板块' in str(c):
+            cs = str(c)
+            if cs == '板块':
                 name_col = c
-            if '涨跌幅' in str(c):
+            elif cs == '涨跌幅':
                 pct_col = c
-
-        # Fallback for different locales/versions
-        if name_col is None:
-            for c in cols:
-                s = str(c).lower()
-                if 'name' in s or '名称' in s or '板块' in s:
-                    name_col = c
-                    break
-        if pct_col is None:
-            for c in cols:
-                s = str(c).lower()
-                if 'pct' in s or '涨跌' in s or 'change' in s:
-                    pct_col = c
-                    break
-
-        if name_col is None: name_col = cols[1] if len(cols) > 1 else cols[0]
-        if pct_col is None: pct_col = cols[2] if len(cols) > 2 else cols[0]
+            elif cs == '上涨家数':
+                up_col = c
+            elif cs == '下跌家数':
+                down_col = c
+            elif cs == '领涨股':
+                leader_col = c
+            elif cs == '领涨股-涨跌幅':
+                leader_pct_col = c
 
         df_sorted = df.sort_values(pct_col, ascending=False, na_position='last')
         for i, (_, r) in enumerate(df_sorted.iterrows()):
             n = str(r[name_col])
             p = safe_float(r[pct_col])
             if n == '' or n == 'nan': continue
-            item = {"name": n, "change_pct": p, "up_count": 0, "down_count": 0, "leader": "", "leader_pct": 0}
+            item = {
+                "name": n, "change_pct": p,
+                "count_up": safe_int(r[up_col]) if up_col else 0,
+                "count_down": safe_int(r[down_col]) if down_col else 0,
+                "leader": str(r[leader_col]) if leader_col else "",
+                "leader_pct": safe_float(r[leader_pct_col]) if leader_pct_col else 0,
+            }
             if i < 5: result["top5"].append(item)
             elif i >= len(df_sorted) - 3: result["bottom3"].append(item)
         print(f"  Top5: {[s['name'] for s in result['top5']]}")
@@ -171,18 +174,26 @@ def fetch_north_flow():
 def fetch_dragon_tiger():
     print("[5/8] 龙虎榜...")
     result = []
+    d = today_str()
     try:
         df = ak.stock_lhb_detail_em()
         if df is not None and not df.empty:
+            # Filter to today's data
+            if '上榜日' in df.columns:
+                df['上榜日'] = df['上榜日'].astype(str)
+                df = df[df['上榜日'] == d]
             for _, r in df.head(30).iterrows():
+                buy_val = safe_float(r.get('龙虎榜买入额', 0))
+                sell_val = safe_float(r.get('龙虎榜卖出额', 0))
                 result.append({
                     "code": str(r.get('代码', '')),
                     "name": str(r.get('名称', '')),
                     "change_pct": safe_float(r.get('涨跌幅', 0)),
-                    "buy": round(safe_float(r.get('买方买入额', 0)), 2),
-                    "sell": round(safe_float(r.get('卖方卖出额', 0)), 2),
+                    "buy": round(buy_val / 1e4, 2),
+                    "sell": round(sell_val / 1e4, 2),
                     "reason": str(r.get('上榜原因', '')),
                 })
+            print(f"  Dragon tiger: {len(result)} entries for {d}")
     except Exception as e:
         print(f"  Dragon tiger error: {e}")
     return result
