@@ -222,7 +222,14 @@ def fetch_emotion_history():
 def calc_emotion(index_data, pools):
     """综合情绪评分 0-100"""
     if not pools["up"]:
-        return {"score": 0, "phase": "非交易日", "position": "空仓", "detail": {}}
+        return {
+            "score": 0, "phase": "等待开盘", "position": "等待数据",
+            "detail": {
+                "blast_rate": 0, "prev_connect_pct": 0, "noodle_count": 0,
+                "promotion_rate": 0, "zt_count": 0, "dt_count": 0,
+                "zb_count": 0, "lb_count": 0,
+            }
+        }
 
     zt = len(pools["up"])
     dt = len(pools["down"])
@@ -442,16 +449,17 @@ def main():
     events = detect_events(pools, os.path.join(BASE, "events_snapshot.json"))
 
     # 构建输出
+    emo_detail = emotion.get("detail", {})
     dashboard = {
         "timestamp": now_str(),
         "date": date_dash(),
         "market": index_data,
         "emotion": emotion,
         "core": {
-            "blast_rate": emotion["detail"]["blast_rate"],
-            "prev_connect_pct": emotion["detail"]["prev_connect_pct"],
-            "noodle_count": emotion["detail"]["noodle_count"],
-            "promotion_rate": emotion["detail"]["promotion_rate"],
+            "blast_rate": emo_detail.get("blast_rate", 0),
+            "prev_connect_pct": emo_detail.get("prev_connect_pct", 0),
+            "noodle_count": emo_detail.get("noodle_count", 0),
+            "promotion_rate": emo_detail.get("promotion_rate", 0),
         },
         "ladder": {
             "max_board": max_board,
