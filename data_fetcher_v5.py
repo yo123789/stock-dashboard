@@ -45,12 +45,14 @@ def fetch_index():
                 return {"price": price, "change_pct": pct, "volume": round(vol, 1)}
     except: pass
     try:
-        df = ak.stock_zh_index_daily_em(symbol="sh000001")
-        r = df.iloc[-1]
-        price = safe_float(r.get('close', r.get('收盘', 0)))
-        pct = safe_float(r.get('pct_chg', r.get('涨跌幅', 0)))
-        vol = safe_float(r.get('volume', r.get('成交量', 0))) / 1e8 if safe_float(r.get('volume', 0)) > 1e6 else safe_float(r.get('成交额', 0)) / 1e8
-        return {"price": price, "change_pct": pct, "volume": max(round(vol, 1), 0)}
+        df = ak.stock_zh_index_daily(symbol="sh000001")
+        if len(df) >= 2:
+            r = df.iloc[-1]
+            prev = df.iloc[-2]
+            price = safe_float(r['close'])
+            pct = round((r['close'] - prev['close']) / prev['close'] * 100, 2)
+            vol = safe_float(r['volume']) / 1e8
+            return {"price": price, "change_pct": pct, "volume": max(round(vol, 1), 0)}
     except:
         # Last resort: load from history
         try:
