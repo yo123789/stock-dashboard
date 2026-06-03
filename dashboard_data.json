@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-06-03 00:28:08",
+  "timestamp": "2026-06-03 00:32:09",
   "date": "2026-06-03",
   "market": {
-    "price": 0,
-    "change_pct": 0,
-    "volume": 0
+    "price": 4075.1,
+    "change_pct": 0.43,
+    "volume": 642.2
   },
   "emotion": {
-    "score": 79,
-    "phase": "震荡偏强・可操作",
-    "position": "5-7成",
+    "score": 80,
+    "phase": "主升浪・强一致",
+    "position": "8-10成",
     "detail": {
       "blast_rate": 23.9,
       "prev_connect_pct": 6.1,
@@ -1975,152 +1975,152 @@
   ],
   "events": [
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "赛伍技术 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "华塑控股 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "鹏鼎控股 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "星德胜 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "杭电股份 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "裕太微-U 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "宏昌电子 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "兴森科技 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "中天科技 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "洪田股份 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "力源信息 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "麦迪科技 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "宏和科技 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "blast",
       "msg": "声迅股份 炸板"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "退市熊猫 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "退市华嵘 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "金富科技 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "元隆雅图 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "共创草坪 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "交建股份 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "天娱数科 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "热威股份 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "嘉德利 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "退市国化 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "永杉锂业 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "镇海股份 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "舒华体育 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "中体产业 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "再升科技 跌停"
     },
     {
-      "time": "00:28",
+      "time": "00:32",
       "type": "limit_down",
       "msg": "粤 传 媒 跌停"
     }
