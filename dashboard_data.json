@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-18 18:16:52",
-  "date": "2026-06-18",
+  "timestamp": "2026-06-19 14:19:25",
+  "date": "2026-06-19",
   "market": {
     "price": 4090.48,
     "change_pct": -0.43,
@@ -145,7 +145,7 @@
         "name": "皓元医药",
         "change_pct": 15.08,
         "board": 1,
-        "turnover": 7.46,
+        "turnover": 7.43,
         "first_time": "",
         "amount": 13.51,
         "style": "换手"
@@ -3511,8 +3511,74 @@
     "down_high": 1
   },
   "sectors": {
-    "top5": [],
-    "bottom3": []
+    "top5": [
+      {
+        "name": "非金属材料",
+        "change_pct": 4.99,
+        "count_up": 9,
+        "count_down": 5,
+        "leader": "金戈新材",
+        "leader_pct": 21.67
+      },
+      {
+        "name": "金属新材料",
+        "change_pct": 2.45,
+        "count_up": 24,
+        "count_down": 10,
+        "leader": "江南新材",
+        "leader_pct": 10.0
+      },
+      {
+        "name": "半导体",
+        "change_pct": 2.29,
+        "count_up": 131,
+        "count_down": 46,
+        "leader": "晶升股份",
+        "leader_pct": 20.01
+      },
+      {
+        "name": "小金属",
+        "change_pct": 2.28,
+        "count_up": 18,
+        "count_down": 11,
+        "leader": "东方锆业",
+        "leader_pct": 10.03
+      },
+      {
+        "name": "医疗服务",
+        "change_pct": 1.96,
+        "count_up": 40,
+        "count_down": 14,
+        "leader": "皓元医药",
+        "leader_pct": 15.08
+      }
+    ],
+    "bottom3": [
+      {
+        "name": "煤炭开采加工",
+        "change_pct": -3.33,
+        "count_up": 1,
+        "count_down": 33,
+        "leader": "恒源煤电",
+        "leader_pct": 0.83
+      },
+      {
+        "name": "电力",
+        "change_pct": -3.94,
+        "count_up": 8,
+        "count_down": 101,
+        "leader": "亨通股份",
+        "leader_pct": 10.03
+      },
+      {
+        "name": "保险",
+        "change_pct": -6.19,
+        "count_up": 0,
+        "count_down": 5,
+        "leader": "中国人保",
+        "leader_pct": -5.0
+      }
+    ]
   },
   "north_flow": 0,
   "dragon_tiger": [
@@ -3759,152 +3825,152 @@
   ],
   "events": [
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "中电港 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "五洋自控 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "华东重机 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "嘉麟杰 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "皓元医药 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "金富科技 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "大连友谊 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "金安国纪 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "科瑞技术 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "工业富联 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "小崧股份 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "兴森科技 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "中晟高科 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "博敏电子 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "京投发展 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "春晖智控 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "洁特生物 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "blast",
       "msg": "利民股份 炸板"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "金盾股份 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "粤电力Ａ 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "狮头股份 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "深南电A 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "欧晶科技 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "万控智造 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "赛伍技术 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "国晟科技 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "中核科技 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "百润股份 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "大唐发电 跌停"
     },
     {
-      "time": "10:16",
+      "time": "06:19",
       "type": "limit_down",
       "msg": "山东玻纤 跌停"
     }
