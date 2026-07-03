@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-07-02 16:12:50",
-  "date": "2026-07-02",
+  "timestamp": "2026-07-03 12:41:20",
+  "date": "2026-07-03",
   "market": {
-    "price": 4028.9,
-    "change_pct": -2.03,
-    "volume": 15771.8
+    "price": 4056.78,
+    "change_pct": 0.69,
+    "volume": 9392.4
   },
   "emotion": {
-    "score": 65,
-    "phase": "震荡偏强・可操作",
-    "position": "5-7成",
+    "score": 86,
+    "phase": "主升浪・强一致",
+    "position": "8-10成",
     "detail": {
-      "blast_rate": 30.1,
-      "prev_connect_pct": 1.9,
+      "blast_rate": 24.5,
+      "prev_connect_pct": 4.5,
       "noodle_count": 0,
       "promotion_rate": 0,
-      "zt_count": 93,
-      "dt_count": 40,
-      "zb_count": 40,
-      "lb_count": 214
+      "zt_count": 77,
+      "dt_count": 7,
+      "zb_count": 25,
+      "lb_count": 130
     }
   },
   "core": {
-    "blast_rate": 30.1,
-    "prev_connect_pct": 1.9,
+    "blast_rate": 24.5,
+    "prev_connect_pct": 4.5,
     "noodle_count": 0,
     "promotion_rate": 0
   },
@@ -31,2618 +31,1537 @@
     "max_board": 1,
     "stocks": [
       {
-        "code": "301092",
-        "name": "争光股份",
+        "code": "920510",
+        "name": "丰光精密",
+        "change_pct": 21.03,
+        "board": 1,
+        "turnover": 17.54,
+        "first_time": "",
+        "amount": 4.7,
+        "style": "换手"
+      },
+      {
+        "code": "301051",
+        "name": "信濠光电",
         "change_pct": 20.0,
         "board": 1,
-        "turnover": 15.46,
+        "turnover": 11.83,
         "first_time": "",
-        "amount": 5.4,
+        "amount": 5.79,
         "style": "换手"
       },
       {
-        "code": "688216",
-        "name": "气派科技",
+        "code": "301379",
+        "name": "天山电子",
         "change_pct": 20.0,
         "board": 1,
-        "turnover": 19.9,
+        "turnover": 20.59,
         "first_time": "",
-        "amount": 10.24,
+        "amount": 14.08,
         "style": "换手"
       },
       {
-        "code": "920699",
-        "name": "海达尔",
-        "change_pct": 15.36,
+        "code": "300163",
+        "name": "先锋新材",
+        "change_pct": 19.94,
         "board": 1,
-        "turnover": 15.13,
+        "turnover": 20.84,
         "first_time": "",
-        "amount": 3.25,
-        "style": "换手"
-      },
-      {
-        "code": "300550",
-        "name": "和仁科技",
-        "change_pct": 12.82,
-        "board": 1,
-        "turnover": 6.48,
-        "first_time": "",
-        "amount": 2.57,
-        "style": "换手"
-      },
-      {
-        "code": "688305",
-        "name": "科德数控",
-        "change_pct": 12.37,
-        "board": 1,
-        "turnover": 11.63,
-        "first_time": "",
-        "amount": 11.64,
-        "style": "换手"
-      },
-      {
-        "code": "000004",
-        "name": "国华退",
-        "change_pct": 10.81,
-        "board": 1,
-        "turnover": 7.52,
-        "first_time": "",
-        "amount": 0.04,
-        "style": "换手"
-      },
-      {
-        "code": "002458",
-        "name": "益生股份",
-        "change_pct": 10.06,
-        "board": 1,
-        "turnover": 10.83,
-        "first_time": "",
-        "amount": 9.76,
-        "style": "换手"
-      },
-      {
-        "code": "605189",
-        "name": "富春染织",
-        "change_pct": 10.03,
-        "board": 1,
-        "turnover": 10.64,
-        "first_time": "",
-        "amount": 3.57,
-        "style": "换手"
-      },
-      {
-        "code": "000536",
-        "name": "华映科技",
-        "change_pct": 10.03,
-        "board": 1,
-        "turnover": 5.85,
-        "first_time": "",
-        "amount": 6.32,
-        "style": "换手"
-      },
-      {
-        "code": "000566",
-        "name": "海南海药",
-        "change_pct": 10.02,
-        "board": 1,
-        "turnover": 9.53,
-        "first_time": "",
-        "amount": 7.45,
-        "style": "换手"
-      },
-      {
-        "code": "002559",
-        "name": "亚威股份",
-        "change_pct": 10.01,
-        "board": 1,
-        "turnover": 18.68,
-        "first_time": "",
-        "amount": 14.24,
-        "style": "换手"
-      },
-      {
-        "code": "603505",
-        "name": "金石资源",
-        "change_pct": 10.01,
-        "board": 1,
-        "turnover": 12.73,
-        "first_time": "",
-        "amount": 25.15,
-        "style": "换手"
-      },
-      {
-        "code": "603559",
-        "name": "中通国脉",
-        "change_pct": 10.01,
-        "board": 1,
-        "turnover": 4.03,
-        "first_time": "",
-        "amount": 1.43,
-        "style": "换手"
-      },
-      {
-        "code": "600641",
-        "name": "先导基电",
-        "change_pct": 10.01,
-        "board": 1,
-        "turnover": 7.38,
-        "first_time": "",
-        "amount": 32.82,
-        "style": "换手"
-      },
-      {
-        "code": "002674",
-        "name": "兴业科技",
-        "change_pct": 10.01,
-        "board": 1,
-        "turnover": 14.89,
-        "first_time": "",
-        "amount": 11.13,
-        "style": "换手"
-      },
-      {
-        "code": "605020",
-        "name": "永和股份",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 12.67,
-        "first_time": "",
-        "amount": 29.34,
-        "style": "换手"
-      },
-      {
-        "code": "000520",
-        "name": "凤凰航运",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 3.72,
-        "first_time": "",
-        "amount": 1.68,
-        "style": "换手"
-      },
-      {
-        "code": "001313",
-        "name": "粤海饲料",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 4.72,
-        "first_time": "",
-        "amount": 2.75,
-        "style": "换手"
-      },
-      {
-        "code": "002354",
-        "name": "天娱数科",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 6.32,
-        "first_time": "",
-        "amount": 10.57,
-        "style": "换手"
-      },
-      {
-        "code": "002693",
-        "name": "双成药业",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 8.82,
-        "first_time": "",
-        "amount": 3.7,
-        "style": "换手"
-      },
-      {
-        "code": "002931",
-        "name": "锋龙股份",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 7.16,
-        "first_time": "",
-        "amount": 9.92,
-        "style": "换手"
-      },
-      {
-        "code": "002971",
-        "name": "和远气体",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 15.14,
-        "first_time": "",
-        "amount": 17.17,
-        "style": "换手"
-      },
-      {
-        "code": "601678",
-        "name": "滨化股份",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 11.41,
-        "first_time": "",
-        "amount": 17.12,
-        "style": "换手"
-      },
-      {
-        "code": "603928",
-        "name": "兴业股份",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 15.84,
-        "first_time": "",
-        "amount": 7.96,
-        "style": "换手"
-      },
-      {
-        "code": "605488",
-        "name": "福莱新材",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 7.55,
-        "first_time": "",
-        "amount": 7.01,
-        "style": "换手"
-      },
-      {
-        "code": "603538",
-        "name": "美诺华",
-        "change_pct": 10.0,
-        "board": 1,
-        "turnover": 4.13,
-        "first_time": "",
-        "amount": 3.87,
-        "style": "换手"
-      },
-      {
-        "code": "002826",
-        "name": "易明医药",
-        "change_pct": 9.98,
-        "board": 1,
-        "turnover": 3.84,
-        "first_time": "",
-        "amount": 1.27,
-        "style": "换手"
-      },
-      {
-        "code": "600630",
-        "name": "龙头股份",
-        "change_pct": 9.98,
-        "board": 1,
-        "turnover": 11.97,
-        "first_time": "",
-        "amount": 5.33,
-        "style": "换手"
-      },
-      {
-        "code": "603137",
-        "name": "恒尚节能",
-        "change_pct": 9.98,
-        "board": 1,
-        "turnover": 0.2,
-        "first_time": "",
-        "amount": 0.06,
-        "style": "一字"
-      },
-      {
-        "code": "600793",
-        "name": "宜宾纸业",
-        "change_pct": 9.98,
-        "board": 1,
-        "turnover": 2.51,
-        "first_time": "",
-        "amount": 0.64,
-        "style": "换手"
-      },
-      {
-        "code": "000601",
-        "name": "韶能股份",
-        "change_pct": 9.94,
-        "board": 1,
-        "turnover": 6.9,
-        "first_time": "",
-        "amount": 5.07,
-        "style": "换手"
-      },
-      {
-        "code": "002808",
-        "name": "恒久退",
-        "change_pct": 8.7,
-        "board": 1,
-        "turnover": 11.55,
-        "first_time": "",
-        "amount": 0.05,
-        "style": "换手"
-      },
-      {
-        "code": "920015",
-        "name": "锦华新材",
-        "change_pct": 8.54,
-        "board": 1,
-        "turnover": 17.59,
-        "first_time": "",
-        "amount": 3.96,
-        "style": "换手"
-      },
-      {
-        "code": "603078",
-        "name": "江化微",
-        "change_pct": 8.05,
-        "board": 1,
-        "turnover": 18.64,
-        "first_time": "",
-        "amount": 39.39,
-        "style": "换手"
-      },
-      {
-        "code": "600322",
-        "name": "津投城开",
-        "change_pct": 8.04,
-        "board": 1,
-        "turnover": 8.67,
-        "first_time": "",
-        "amount": 2.99,
-        "style": "换手"
-      },
-      {
-        "code": "002653",
-        "name": "海思科",
-        "change_pct": 8.0,
-        "board": 1,
-        "turnover": 4.47,
-        "first_time": "",
-        "amount": 17.55,
-        "style": "换手"
-      },
-      {
-        "code": "603823",
-        "name": "百合花",
-        "change_pct": 7.82,
-        "board": 1,
-        "turnover": 4.36,
-        "first_time": "",
-        "amount": 11.11,
-        "style": "换手"
-      },
-      {
-        "code": "605178",
-        "name": "时空科技",
-        "change_pct": 7.65,
-        "board": 1,
-        "turnover": 12.13,
-        "first_time": "",
-        "amount": 13.38,
-        "style": "换手"
-      },
-      {
-        "code": "002326",
-        "name": "永太科技",
-        "change_pct": 7.61,
-        "board": 1,
-        "turnover": 26.42,
-        "first_time": "",
-        "amount": 59.89,
-        "style": "换手"
-      },
-      {
-        "code": "688103",
-        "name": "国力电子",
-        "change_pct": 7.51,
-        "board": 1,
-        "turnover": 7.25,
-        "first_time": "",
-        "amount": 5.04,
-        "style": "换手"
-      },
-      {
-        "code": "300932",
-        "name": "三友联众",
-        "change_pct": 7.42,
-        "board": 1,
-        "turnover": 14.49,
-        "first_time": "",
-        "amount": 5.26,
-        "style": "换手"
-      },
-      {
-        "code": "002167",
-        "name": "东方锆业",
-        "change_pct": 7.29,
-        "board": 1,
-        "turnover": 26.16,
-        "first_time": "",
-        "amount": 50.97,
-        "style": "换手"
-      },
-      {
-        "code": "600601",
-        "name": "方正科技",
-        "change_pct": 6.8,
-        "board": 1,
-        "turnover": 12.6,
-        "first_time": "",
-        "amount": 77.32,
-        "style": "换手"
-      },
-      {
-        "code": "002422",
-        "name": "科伦药业",
-        "change_pct": 6.67,
-        "board": 1,
-        "turnover": 4.35,
-        "first_time": "",
-        "amount": 24.83,
-        "style": "换手"
-      },
-      {
-        "code": "300345",
-        "name": "华民股份",
-        "change_pct": 6.28,
-        "board": 1,
-        "turnover": 24.81,
-        "first_time": "",
-        "amount": 8.99,
-        "style": "换手"
-      },
-      {
-        "code": "301045",
-        "name": "天禄科技",
-        "change_pct": 6.18,
-        "board": 1,
-        "turnover": 19.94,
-        "first_time": "",
-        "amount": 13.41,
-        "style": "换手"
-      },
-      {
-        "code": "300655",
-        "name": "晶瑞电材",
-        "change_pct": 5.89,
-        "board": 1,
-        "turnover": 18.82,
-        "first_time": "",
-        "amount": 45.33,
-        "style": "换手"
-      },
-      {
-        "code": "301588",
-        "name": "美新科技",
-        "change_pct": 5.73,
-        "board": 1,
-        "turnover": 12.82,
-        "first_time": "",
-        "amount": 4.55,
-        "style": "换手"
-      },
-      {
-        "code": "603270",
-        "name": "金帝股份",
-        "change_pct": 5.7,
-        "board": 1,
-        "turnover": 24.49,
-        "first_time": "",
-        "amount": 5.91,
-        "style": "换手"
-      },
-      {
-        "code": "301211",
-        "name": "亨迪药业",
-        "change_pct": 5.38,
-        "board": 1,
-        "turnover": 7.17,
-        "first_time": "",
-        "amount": 3.64,
-        "style": "换手"
-      },
-      {
-        "code": "688571",
-        "name": "杭华股份",
-        "change_pct": 5.33,
-        "board": 1,
-        "turnover": 11.93,
-        "first_time": "",
-        "amount": 5.46,
-        "style": "换手"
-      },
-      {
-        "code": "002955",
-        "name": "鸿合科技",
-        "change_pct": 5.21,
-        "board": 1,
-        "turnover": 7.11,
-        "first_time": "",
-        "amount": 5.19,
-        "style": "换手"
-      },
-      {
-        "code": "600458",
-        "name": "时代新材",
-        "change_pct": 5.12,
-        "board": 1,
-        "turnover": 10.26,
-        "first_time": "",
-        "amount": 15.46,
-        "style": "换手"
-      },
-      {
-        "code": "600182",
-        "name": "S佳通",
-        "change_pct": 4.97,
-        "board": 1,
-        "turnover": 1.2,
-        "first_time": "",
-        "amount": 0.29,
-        "style": "换手"
-      },
-      {
-        "code": "000571",
-        "name": "新大洲A",
-        "change_pct": 4.97,
-        "board": 1,
-        "turnover": 7.51,
-        "first_time": "",
-        "amount": 4.31,
-        "style": "换手"
-      },
-      {
-        "code": "300720",
-        "name": "海川智能",
-        "change_pct": 4.93,
-        "board": 1,
-        "turnover": 10.57,
-        "first_time": "",
-        "amount": 22.57,
-        "style": "换手"
-      },
-      {
-        "code": "688506",
-        "name": "百利天恒",
-        "change_pct": 4.88,
-        "board": 1,
-        "turnover": 1.28,
-        "first_time": "",
-        "amount": 17.43,
-        "style": "换手"
-      },
-      {
-        "code": "688266",
-        "name": "泽璟制药-U",
-        "change_pct": 4.85,
-        "board": 1,
-        "turnover": 5.8,
-        "first_time": "",
-        "amount": 20.32,
-        "style": "换手"
-      },
-      {
-        "code": "688163",
-        "name": "赛伦生物",
-        "change_pct": 4.54,
-        "board": 1,
-        "turnover": 3.8,
-        "first_time": "",
-        "amount": 2.09,
-        "style": "换手"
-      },
-      {
-        "code": "300873",
-        "name": "海晨股份",
-        "change_pct": 4.49,
-        "board": 1,
-        "turnover": 26.17,
-        "first_time": "",
-        "amount": 18.8,
-        "style": "换手"
-      },
-      {
-        "code": "603669",
-        "name": "灵康药业",
-        "change_pct": 4.3,
-        "board": 1,
-        "turnover": 6.77,
-        "first_time": "",
-        "amount": 2.89,
-        "style": "换手"
-      },
-      {
-        "code": "301603",
-        "name": "乔锋智能",
-        "change_pct": 4.23,
-        "board": 1,
-        "turnover": 13.58,
-        "first_time": "",
-        "amount": 7.41,
-        "style": "换手"
-      },
-      {
-        "code": "603033",
-        "name": "三维股份",
-        "change_pct": 4.1,
-        "board": 1,
-        "turnover": 4.04,
-        "first_time": "",
-        "amount": 4.36,
-        "style": "换手"
-      },
-      {
-        "code": "603607",
-        "name": "京华激光",
-        "change_pct": 4.07,
-        "board": 1,
-        "turnover": 7.11,
-        "first_time": "",
-        "amount": 3.35,
-        "style": "换手"
-      },
-      {
-        "code": "688602",
-        "name": "康鹏科技",
-        "change_pct": 4.04,
-        "board": 1,
-        "turnover": 11.53,
-        "first_time": "",
-        "amount": 2.54,
-        "style": "换手"
-      },
-      {
-        "code": "688578",
-        "name": "艾力斯",
-        "change_pct": 4.02,
-        "board": 1,
-        "turnover": 5.18,
-        "first_time": "",
-        "amount": 29.63,
-        "style": "换手"
-      },
-      {
-        "code": "688371",
-        "name": "菲沃泰",
-        "change_pct": 4.01,
-        "board": 1,
-        "turnover": 5.73,
-        "first_time": "",
-        "amount": 8.04,
-        "style": "换手"
-      },
-      {
-        "code": "600366",
-        "name": "宁波韵升",
-        "change_pct": 4.0,
-        "board": 1,
-        "turnover": 14.88,
-        "first_time": "",
-        "amount": 27.05,
-        "style": "换手"
-      },
-      {
-        "code": "603257",
-        "name": "中国瑞林",
-        "change_pct": 3.95,
-        "board": 1,
-        "turnover": 13.14,
-        "first_time": "",
-        "amount": 2.7,
-        "style": "换手"
-      },
-      {
-        "code": "000970",
-        "name": "中科三环",
-        "change_pct": 3.94,
-        "board": 1,
-        "turnover": 12.64,
-        "first_time": "",
-        "amount": 24.87,
-        "style": "换手"
-      },
-      {
-        "code": "000725",
-        "name": "京东方Ａ",
-        "change_pct": 3.76,
-        "board": 1,
-        "turnover": 16.01,
-        "first_time": "",
-        "amount": 493.42,
-        "style": "换手"
-      },
-      {
-        "code": "301365",
-        "name": "矩阵股份",
-        "change_pct": 3.71,
-        "board": 1,
-        "turnover": 9.88,
-        "first_time": "",
-        "amount": 4.9,
-        "style": "换手"
-      },
-      {
-        "code": "300907",
-        "name": "康平科技",
-        "change_pct": 3.69,
-        "board": 1,
-        "turnover": 7.38,
-        "first_time": "",
-        "amount": 4.26,
-        "style": "换手"
-      },
-      {
-        "code": "605288",
-        "name": "凯迪股份",
-        "change_pct": 3.65,
-        "board": 1,
-        "turnover": 2.36,
-        "first_time": "",
-        "amount": 2.09,
-        "style": "换手"
-      },
-      {
-        "code": "002025",
-        "name": "航天电器",
-        "change_pct": 3.62,
-        "board": 1,
-        "turnover": 8.29,
-        "first_time": "",
-        "amount": 31.52,
-        "style": "换手"
-      },
-      {
-        "code": "301072",
-        "name": "中捷精工",
-        "change_pct": 3.58,
-        "board": 1,
-        "turnover": 8.68,
-        "first_time": "",
-        "amount": 2.5,
-        "style": "换手"
-      },
-      {
-        "code": "300661",
-        "name": "圣邦股份",
-        "change_pct": 3.49,
-        "board": 1,
-        "turnover": 5.16,
-        "first_time": "",
-        "amount": 43.87,
-        "style": "换手"
-      },
-      {
-        "code": "603068",
-        "name": "博通集成",
-        "change_pct": 3.49,
-        "board": 1,
-        "turnover": 9.22,
-        "first_time": "",
-        "amount": 5.56,
-        "style": "换手"
-      },
-      {
-        "code": "300568",
-        "name": "星源材质",
-        "change_pct": 3.46,
-        "board": 1,
-        "turnover": 12.88,
-        "first_time": "",
-        "amount": 31.47,
-        "style": "换手"
-      },
-      {
-        "code": "688257",
-        "name": "新锐股份",
-        "change_pct": 3.42,
-        "board": 1,
-        "turnover": 8.69,
-        "first_time": "",
-        "amount": 34.02,
-        "style": "换手"
-      },
-      {
-        "code": "300562",
-        "name": "乐心医疗",
-        "change_pct": 3.4,
-        "board": 1,
-        "turnover": 14.47,
-        "first_time": "",
-        "amount": 3.49,
+        "amount": 7.26,
         "style": "换手"
       },
       {
         "code": "300985",
         "name": "致远新能",
-        "change_pct": 3.29,
-        "board": 1,
-        "turnover": 3.17,
-        "first_time": "",
-        "amount": 2.45,
-        "style": "换手"
-      },
-      {
-        "code": "300938",
-        "name": "信测标准",
-        "change_pct": 3.29,
-        "board": 1,
-        "turnover": 8.82,
-        "first_time": "",
-        "amount": 14.26,
-        "style": "换手"
-      },
-      {
-        "code": "600857",
-        "name": "宁波中百",
-        "change_pct": 3.29,
-        "board": 1,
-        "turnover": 11.05,
-        "first_time": "",
-        "amount": 5.51,
-        "style": "换手"
-      },
-      {
-        "code": "300964",
-        "name": "本川智能",
-        "change_pct": 3.25,
-        "board": 1,
-        "turnover": 13.72,
-        "first_time": "",
-        "amount": 8.99,
-        "style": "换手"
-      },
-      {
-        "code": "688689",
-        "name": "银河微电",
-        "change_pct": 3.23,
-        "board": 1,
-        "turnover": 13.81,
-        "first_time": "",
-        "amount": 13.94,
-        "style": "换手"
-      },
-      {
-        "code": "688623",
-        "name": "双元科技",
-        "change_pct": 3.18,
-        "board": 1,
-        "turnover": 6.65,
-        "first_time": "",
-        "amount": 1.74,
-        "style": "换手"
-      },
-      {
-        "code": "301281",
-        "name": "科源制药",
-        "change_pct": 3.13,
-        "board": 1,
-        "turnover": 10.34,
-        "first_time": "",
-        "amount": 4.23,
-        "style": "换手"
-      },
-      {
-        "code": "301307",
-        "name": "美利信",
-        "change_pct": 3.03,
-        "board": 1,
-        "turnover": 16.97,
-        "first_time": "",
-        "amount": 14.82,
-        "style": "换手"
-      },
-      {
-        "code": "603610",
-        "name": "麒盛科技",
-        "change_pct": 2.96,
-        "board": 1,
-        "turnover": 5.32,
-        "first_time": "",
-        "amount": 3.64,
-        "style": "换手"
-      },
-      {
-        "code": "920020",
-        "name": "泰凯英",
-        "change_pct": 2.87,
-        "board": 1,
-        "turnover": 4.79,
-        "first_time": "",
-        "amount": 0.43,
-        "style": "换手"
-      },
-      {
-        "code": "603120",
-        "name": "肯特催化",
-        "change_pct": 2.86,
-        "board": 1,
-        "turnover": 30.66,
-        "first_time": "",
-        "amount": 7.01,
-        "style": "换手"
-      },
-      {
-        "code": "688333",
-        "name": "铂力特",
-        "change_pct": 2.82,
-        "board": 1,
-        "turnover": 8.99,
-        "first_time": "",
-        "amount": 26.92,
-        "style": "换手"
-      },
-      {
-        "code": "688345",
-        "name": "博力威",
-        "change_pct": 2.8,
-        "board": 1,
-        "turnover": 5.23,
-        "first_time": "",
-        "amount": 3.38,
-        "style": "换手"
-      },
-      {
-        "code": "688221",
-        "name": "前沿生物-U",
-        "change_pct": 2.78,
-        "board": 1,
-        "turnover": 10.61,
-        "first_time": "",
-        "amount": 10.84,
-        "style": "换手"
-      },
-      {
-        "code": "601156",
-        "name": "东航物流",
-        "change_pct": 2.77,
-        "board": 1,
-        "turnover": 2.49,
-        "first_time": "",
-        "amount": 4.16,
-        "style": "换手"
-      },
-      {
-        "code": "301237",
-        "name": "和顺科技",
-        "change_pct": 2.64,
-        "board": 1,
-        "turnover": 9.65,
-        "first_time": "",
-        "amount": 4.5,
-        "style": "换手"
-      },
-      {
-        "code": "300860",
-        "name": "锋尚文化",
-        "change_pct": 2.38,
-        "board": 1,
-        "turnover": 4.38,
-        "first_time": "",
-        "amount": 1.3,
-        "style": "换手"
-      },
-      {
-        "code": "300717",
-        "name": "华信新材",
-        "change_pct": 2.22,
-        "board": 1,
-        "turnover": 7.51,
-        "first_time": "",
-        "amount": 1.7,
-        "style": "换手"
-      },
-      {
-        "code": "002687",
-        "name": "乔治白",
-        "change_pct": 2.03,
-        "board": 1,
-        "turnover": 8.59,
-        "first_time": "",
-        "amount": 2.0,
-        "style": "换手"
-      },
-      {
-        "code": "600177",
-        "name": "雅戈尔",
-        "change_pct": 1.95,
-        "board": 1,
-        "turnover": 0.86,
-        "first_time": "",
-        "amount": 3.03,
-        "style": "换手"
-      },
-      {
-        "code": "300041",
-        "name": "回天新材",
-        "change_pct": 1.88,
-        "board": 1,
-        "turnover": 15.75,
-        "first_time": "",
-        "amount": 13.37,
-        "style": "换手"
-      },
-      {
-        "code": "688362",
-        "name": "甬矽电子",
-        "change_pct": 1.84,
-        "board": 1,
-        "turnover": 10.82,
-        "first_time": "",
-        "amount": 46.89,
-        "style": "换手"
-      },
-      {
-        "code": "603757",
-        "name": "大元泵业",
-        "change_pct": 1.77,
-        "board": 1,
-        "turnover": 7.38,
-        "first_time": "",
-        "amount": 10.35,
-        "style": "换手"
-      },
-      {
-        "code": "002367",
-        "name": "康力电梯",
-        "change_pct": 1.7,
-        "board": 1,
-        "turnover": 3.7,
-        "first_time": "",
-        "amount": 2.14,
-        "style": "换手"
-      },
-      {
-        "code": "001229",
-        "name": "魅视科技",
-        "change_pct": 1.52,
-        "board": 1,
-        "turnover": 13.58,
-        "first_time": "",
-        "amount": 3.78,
-        "style": "换手"
-      },
-      {
-        "code": "600378",
-        "name": "昊华科技",
-        "change_pct": 1.44,
-        "board": 1,
-        "turnover": 10.83,
-        "first_time": "",
-        "amount": 96.21,
-        "style": "换手"
-      },
-      {
-        "code": "688059",
-        "name": "华锐精密",
-        "change_pct": 1.29,
-        "board": 1,
-        "turnover": 6.89,
-        "first_time": "",
-        "amount": 14.12,
-        "style": "换手"
-      },
-      {
-        "code": "301617",
-        "name": "博苑新材",
-        "change_pct": 1.24,
-        "board": 1,
-        "turnover": 11.02,
-        "first_time": "",
-        "amount": 5.04,
-        "style": "换手"
-      },
-      {
-        "code": "301607",
-        "name": "富特科技",
-        "change_pct": 1.22,
-        "board": 1,
-        "turnover": 11.87,
-        "first_time": "",
-        "amount": 9.33,
-        "style": "换手"
-      },
-      {
-        "code": "688391",
-        "name": "钜泉科技",
-        "change_pct": 1.21,
-        "board": 1,
-        "turnover": 3.97,
-        "first_time": "",
-        "amount": 1.66,
-        "style": "换手"
-      },
-      {
-        "code": "688117",
-        "name": "圣诺生物",
-        "change_pct": 1.11,
-        "board": 1,
-        "turnover": 5.3,
-        "first_time": "",
-        "amount": 3.44,
-        "style": "换手"
-      },
-      {
-        "code": "688112",
-        "name": "鼎阳科技",
-        "change_pct": 1.04,
-        "board": 1,
-        "turnover": 4.43,
-        "first_time": "",
-        "amount": 5.71,
-        "style": "换手"
-      },
-      {
-        "code": "603006",
-        "name": "联明股份",
-        "change_pct": 1.04,
-        "board": 1,
-        "turnover": 3.77,
-        "first_time": "",
-        "amount": 1.42,
-        "style": "换手"
-      },
-      {
-        "code": "002738",
-        "name": "中矿资源",
-        "change_pct": 0.92,
-        "board": 1,
-        "turnover": 12.92,
-        "first_time": "",
-        "amount": 59.6,
-        "style": "换手"
-      },
-      {
-        "code": "603978",
-        "name": "深圳新星",
-        "change_pct": 0.9,
-        "board": 1,
-        "turnover": 10.3,
-        "first_time": "",
-        "amount": 7.22,
-        "style": "换手"
-      },
-      {
-        "code": "002396",
-        "name": "星网锐捷",
-        "change_pct": 0.85,
-        "board": 1,
-        "turnover": 11.12,
-        "first_time": "",
-        "amount": 18.06,
-        "style": "换手"
-      },
-      {
-        "code": "301177",
-        "name": "迪阿股份",
-        "change_pct": 0.84,
-        "board": 1,
-        "turnover": 2.28,
-        "first_time": "",
-        "amount": 2.81,
-        "style": "换手"
-      },
-      {
-        "code": "603223",
-        "name": "恒通股份",
-        "change_pct": 0.75,
-        "board": 1,
-        "turnover": 3.93,
-        "first_time": "",
-        "amount": 3.77,
-        "style": "换手"
-      },
-      {
-        "code": "603004",
-        "name": "鼎龙科技",
-        "change_pct": 0.65,
-        "board": 1,
-        "turnover": 11.72,
-        "first_time": "",
-        "amount": 1.7,
-        "style": "换手"
-      },
-      {
-        "code": "300671",
-        "name": "富满微",
-        "change_pct": 0.55,
-        "board": 1,
-        "turnover": 16.8,
-        "first_time": "",
-        "amount": 34.62,
-        "style": "换手"
-      },
-      {
-        "code": "688432",
-        "name": "有研硅",
-        "change_pct": 0.24,
-        "board": 1,
-        "turnover": 6.86,
-        "first_time": "",
-        "amount": 38.71,
-        "style": "换手"
-      },
-      {
-        "code": "301328",
-        "name": "维峰电子",
-        "change_pct": 0.07,
-        "board": 1,
-        "turnover": 7.43,
-        "first_time": "",
-        "amount": 6.93,
-        "style": "换手"
-      },
-      {
-        "code": "002935",
-        "name": "天奥电子",
-        "change_pct": 0.0,
-        "board": 1,
-        "turnover": 4.22,
-        "first_time": "",
-        "amount": 4.06,
-        "style": "换手"
-      },
-      {
-        "code": "603379",
-        "name": "三美股份",
-        "change_pct": 0.0,
-        "board": 1,
-        "turnover": 8.89,
-        "first_time": "",
-        "amount": 45.13,
-        "style": "换手"
-      },
-      {
-        "code": "002273",
-        "name": "水晶光电",
-        "change_pct": -0.03,
-        "board": 1,
-        "turnover": 19.08,
-        "first_time": "",
-        "amount": 105.13,
-        "style": "换手"
-      },
-      {
-        "code": "688207",
-        "name": "格灵深瞳",
-        "change_pct": -0.04,
-        "board": 1,
-        "turnover": 13.63,
-        "first_time": "",
-        "amount": 8.08,
-        "style": "换手"
-      },
-      {
-        "code": "002628",
-        "name": "成都路桥",
-        "change_pct": -0.18,
-        "board": 1,
-        "turnover": 6.81,
-        "first_time": "",
-        "amount": 2.82,
-        "style": "换手"
-      },
-      {
-        "code": "300727",
-        "name": "润禾材料",
-        "change_pct": -0.26,
-        "board": 1,
-        "turnover": 8.22,
-        "first_time": "",
-        "amount": 5.17,
-        "style": "换手"
-      },
-      {
-        "code": "002277",
-        "name": "友阿股份",
-        "change_pct": -0.31,
-        "board": 1,
-        "turnover": 4.37,
-        "first_time": "",
-        "amount": 4.03,
-        "style": "换手"
-      },
-      {
-        "code": "002056",
-        "name": "横店东磁",
-        "change_pct": -0.33,
-        "board": 1,
-        "turnover": 5.94,
-        "first_time": "",
-        "amount": 30.36,
-        "style": "换手"
-      },
-      {
-        "code": "600520",
-        "name": "三佳科技",
-        "change_pct": -0.33,
-        "board": 1,
-        "turnover": 15.45,
-        "first_time": "",
-        "amount": 9.22,
-        "style": "换手"
-      },
-      {
-        "code": "605208",
-        "name": "永茂泰",
-        "change_pct": -0.48,
-        "board": 1,
-        "turnover": 4.7,
-        "first_time": "",
-        "amount": 2.57,
-        "style": "换手"
-      },
-      {
-        "code": "688114",
-        "name": "华大智造",
-        "change_pct": -0.5,
-        "board": 1,
-        "turnover": 1.94,
-        "first_time": "",
-        "amount": 4.33,
-        "style": "换手"
-      },
-      {
-        "code": "688168",
-        "name": "安博通",
-        "change_pct": -0.62,
-        "board": 1,
-        "turnover": 5.36,
-        "first_time": "",
-        "amount": 4.24,
-        "style": "换手"
-      },
-      {
-        "code": "000048",
-        "name": "京基智农",
-        "change_pct": -0.62,
+        "change_pct": 19.57,
         "board": 1,
         "turnover": 3.62,
         "first_time": "",
-        "amount": 4.33,
+        "amount": 3.06,
         "style": "换手"
       },
       {
-        "code": "300420",
-        "name": "五洋自控",
-        "change_pct": -0.63,
+        "code": "301165",
+        "name": "锐捷网络",
+        "change_pct": 16.19,
         "board": 1,
-        "turnover": 14.22,
+        "turnover": 3.47,
         "first_time": "",
-        "amount": 15.45,
-        "style": "换手"
-      },
-      {
-        "code": "688629",
-        "name": "华丰科技",
-        "change_pct": -0.64,
-        "board": 1,
-        "turnover": 6.4,
-        "first_time": "",
-        "amount": 54.83,
-        "style": "换手"
-      },
-      {
-        "code": "300263",
-        "name": "隆华科技",
-        "change_pct": -0.66,
-        "board": 1,
-        "turnover": 14.85,
-        "first_time": "",
-        "amount": 24.11,
-        "style": "换手"
-      },
-      {
-        "code": "001331",
-        "name": "胜通能源",
-        "change_pct": -0.68,
-        "board": 1,
-        "turnover": 6.71,
-        "first_time": "",
-        "amount": 12.11,
-        "style": "换手"
-      },
-      {
-        "code": "601628",
-        "name": "中国人寿",
-        "change_pct": -0.7,
-        "board": 1,
-        "turnover": 0.28,
-        "first_time": "",
-        "amount": 22.75,
-        "style": "一字"
-      },
-      {
-        "code": "002079",
-        "name": "苏州固锝",
-        "change_pct": -0.75,
-        "board": 1,
-        "turnover": 8.56,
-        "first_time": "",
-        "amount": 10.11,
-        "style": "换手"
-      },
-      {
-        "code": "002407",
-        "name": "多氟多",
-        "change_pct": -0.78,
-        "board": 1,
-        "turnover": 34.66,
-        "first_time": "",
-        "amount": 206.8,
-        "style": "换手"
-      },
-      {
-        "code": "002317",
-        "name": "众生药业",
-        "change_pct": -0.82,
-        "board": 1,
-        "turnover": 9.24,
-        "first_time": "",
-        "amount": 18.84,
-        "style": "换手"
-      },
-      {
-        "code": "688486",
-        "name": "龙迅股份",
-        "change_pct": -0.84,
-        "board": 1,
-        "turnover": 4.96,
-        "first_time": "",
-        "amount": 6.02,
-        "style": "换手"
-      },
-      {
-        "code": "002860",
-        "name": "星帅尔",
-        "change_pct": -0.87,
-        "board": 1,
-        "turnover": 6.92,
-        "first_time": "",
-        "amount": 3.58,
-        "style": "换手"
-      },
-      {
-        "code": "002747",
-        "name": "埃斯顿",
-        "change_pct": -0.88,
-        "board": 1,
-        "turnover": 22.44,
-        "first_time": "",
-        "amount": 72.31,
-        "style": "换手"
-      },
-      {
-        "code": "600113",
-        "name": "浙江东日",
-        "change_pct": -0.96,
-        "board": 1,
-        "turnover": 7.68,
-        "first_time": "",
-        "amount": 11.6,
-        "style": "换手"
-      },
-      {
-        "code": "603222",
-        "name": "济民健康",
-        "change_pct": -0.97,
-        "board": 1,
-        "turnover": 7.13,
-        "first_time": "",
-        "amount": 3.15,
-        "style": "换手"
-      },
-      {
-        "code": "001256",
-        "name": "炜冈科技",
-        "change_pct": -1.07,
-        "board": 1,
-        "turnover": 16.01,
-        "first_time": "",
-        "amount": 5.29,
-        "style": "换手"
-      },
-      {
-        "code": "603662",
-        "name": "柯力传感",
-        "change_pct": -1.09,
-        "board": 1,
-        "turnover": 8.38,
-        "first_time": "",
-        "amount": 17.62,
-        "style": "换手"
-      },
-      {
-        "code": "600076",
-        "name": "康欣新材",
-        "change_pct": -1.1,
-        "board": 1,
-        "turnover": 8.25,
-        "first_time": "",
-        "amount": 4.1,
-        "style": "换手"
-      },
-      {
-        "code": "300558",
-        "name": "贝达药业",
-        "change_pct": -1.1,
-        "board": 1,
-        "turnover": 6.4,
-        "first_time": "",
-        "amount": 18.3,
-        "style": "换手"
-      },
-      {
-        "code": "300234",
-        "name": "开尔新材",
-        "change_pct": -1.11,
-        "board": 1,
-        "turnover": 6.2,
-        "first_time": "",
-        "amount": 2.53,
-        "style": "换手"
-      },
-      {
-        "code": "300801",
-        "name": "泰和科技",
-        "change_pct": -1.3,
-        "board": 1,
-        "turnover": 13.24,
-        "first_time": "",
-        "amount": 6.33,
-        "style": "换手"
-      },
-      {
-        "code": "603358",
-        "name": "华达科技",
-        "change_pct": -1.3,
-        "board": 1,
-        "turnover": 3.1,
-        "first_time": "",
-        "amount": 6.18,
-        "style": "换手"
-      },
-      {
-        "code": "000017",
-        "name": "深中华A",
-        "change_pct": -1.32,
-        "board": 1,
-        "turnover": 4.64,
-        "first_time": "",
-        "amount": 1.25,
-        "style": "换手"
-      },
-      {
-        "code": "688173",
-        "name": "希荻微",
-        "change_pct": -1.36,
-        "board": 1,
-        "turnover": 5.7,
-        "first_time": "",
-        "amount": 4.52,
-        "style": "换手"
-      },
-      {
-        "code": "300083",
-        "name": "创世纪",
-        "change_pct": -1.39,
-        "board": 1,
-        "turnover": 10.22,
-        "first_time": "",
-        "amount": 21.12,
-        "style": "换手"
-      },
-      {
-        "code": "688549",
-        "name": "中巨芯-U",
-        "change_pct": -1.45,
-        "board": 1,
-        "turnover": 20.13,
-        "first_time": "",
-        "amount": 48.58,
-        "style": "换手"
-      },
-      {
-        "code": "688209",
-        "name": "英集芯",
-        "change_pct": -1.59,
-        "board": 1,
-        "turnover": 5.48,
-        "first_time": "",
-        "amount": 6.88,
-        "style": "换手"
-      },
-      {
-        "code": "603040",
-        "name": "新坐标",
-        "change_pct": -1.6,
-        "board": 1,
-        "turnover": 3.7,
-        "first_time": "",
-        "amount": 5.14,
-        "style": "换手"
-      },
-      {
-        "code": "300440",
-        "name": "运达科技",
-        "change_pct": -1.65,
-        "board": 1,
-        "turnover": 3.75,
-        "first_time": "",
-        "amount": 3.62,
-        "style": "换手"
-      },
-      {
-        "code": "000521",
-        "name": "长虹美菱",
-        "change_pct": -1.68,
-        "board": 1,
-        "turnover": 7.6,
-        "first_time": "",
-        "amount": 4.01,
-        "style": "换手"
-      },
-      {
-        "code": "605366",
-        "name": "宏柏新材",
-        "change_pct": -1.71,
-        "board": 1,
-        "turnover": 8.32,
-        "first_time": "",
-        "amount": 8.19,
-        "style": "换手"
-      },
-      {
-        "code": "600160",
-        "name": "巨化股份",
-        "change_pct": -1.83,
-        "board": 1,
-        "turnover": 4.7,
-        "first_time": "",
-        "amount": 70.27,
-        "style": "换手"
-      },
-      {
-        "code": "301555",
-        "name": "惠柏新材",
-        "change_pct": -2.18,
-        "board": 1,
-        "turnover": 14.3,
-        "first_time": "",
-        "amount": 3.24,
-        "style": "换手"
-      },
-      {
-        "code": "603519",
-        "name": "立霸股份",
-        "change_pct": -2.2,
-        "board": 1,
-        "turnover": 3.21,
-        "first_time": "",
-        "amount": 1.36,
-        "style": "换手"
-      },
-      {
-        "code": "600909",
-        "name": "华安证券",
-        "change_pct": -2.21,
-        "board": 1,
-        "turnover": 8.75,
-        "first_time": "",
-        "amount": 52.87,
-        "style": "换手"
-      },
-      {
-        "code": "600783",
-        "name": "鲁信创投",
-        "change_pct": -2.56,
-        "board": 1,
-        "turnover": 7.33,
-        "first_time": "",
-        "amount": 12.13,
+        "amount": 38.37,
         "style": "换手"
       },
       {
         "code": "688017",
         "name": "绿的谐波",
-        "change_pct": -2.58,
+        "change_pct": 15.7,
         "board": 1,
-        "turnover": 11.38,
+        "turnover": 9.42,
         "first_time": "",
-        "amount": 90.18,
+        "amount": 78.0,
         "style": "换手"
       },
       {
-        "code": "603991",
-        "name": "领先股份",
-        "change_pct": -2.69,
+        "code": "300932",
+        "name": "三友联众",
+        "change_pct": 13.21,
         "board": 1,
-        "turnover": 11.24,
+        "turnover": 10.45,
         "first_time": "",
-        "amount": 15.47,
+        "amount": 4.08,
         "style": "换手"
       },
       {
-        "code": "000603",
-        "name": "盛达资源",
-        "change_pct": -2.72,
+        "code": "688231",
+        "name": "隆达股份",
+        "change_pct": 11.75,
         "board": 1,
-        "turnover": 13.69,
+        "turnover": 2.49,
         "first_time": "",
-        "amount": 23.16,
+        "amount": 3.26,
         "style": "换手"
       },
       {
-        "code": "688105",
-        "name": "诺唯赞",
-        "change_pct": -2.96,
+        "code": "300487",
+        "name": "蓝晓科技",
+        "change_pct": 11.67,
         "board": 1,
-        "turnover": 2.34,
+        "turnover": 5.63,
         "first_time": "",
-        "amount": 2.22,
-        "style": "换手"
-      },
-      {
-        "code": "603259",
-        "name": "药明康德",
-        "change_pct": -3.12,
-        "board": 1,
-        "turnover": 3.42,
-        "first_time": "",
-        "amount": 104.63,
-        "style": "换手"
-      },
-      {
-        "code": "688728",
-        "name": "格科微",
-        "change_pct": -3.13,
-        "board": 1,
-        "turnover": 5.04,
-        "first_time": "",
-        "amount": 31.4,
-        "style": "换手"
-      },
-      {
-        "code": "300497",
-        "name": "富祥股份",
-        "change_pct": -3.17,
-        "board": 1,
-        "turnover": 18.67,
-        "first_time": "",
-        "amount": 19.54,
-        "style": "换手"
-      },
-      {
-        "code": "605100",
-        "name": "华丰股份",
-        "change_pct": -3.26,
-        "board": 1,
-        "turnover": 3.08,
-        "first_time": "",
-        "amount": 3.01,
-        "style": "换手"
-      },
-      {
-        "code": "600363",
-        "name": "联创光电",
-        "change_pct": -3.37,
-        "board": 1,
-        "turnover": 7.93,
-        "first_time": "",
-        "amount": 12.92,
-        "style": "换手"
-      },
-      {
-        "code": "301393",
-        "name": "昊帆生物",
-        "change_pct": -3.4,
-        "board": 1,
-        "turnover": 13.62,
-        "first_time": "",
-        "amount": 3.89,
-        "style": "换手"
-      },
-      {
-        "code": "688248",
-        "name": "南网科技",
-        "change_pct": -3.45,
-        "board": 1,
-        "turnover": 1.11,
-        "first_time": "",
-        "amount": 4.19,
-        "style": "换手"
-      },
-      {
-        "code": "688392",
-        "name": "骄成超声",
-        "change_pct": -4.02,
-        "board": 1,
-        "turnover": 5.13,
-        "first_time": "",
-        "amount": 13.27,
-        "style": "换手"
-      },
-      {
-        "code": "688106",
-        "name": "金宏气体",
-        "change_pct": -4.1,
-        "board": 1,
-        "turnover": 18.83,
-        "first_time": "",
-        "amount": 49.55,
-        "style": "换手"
-      },
-      {
-        "code": "002141",
-        "name": "贤丰控股",
-        "change_pct": -4.11,
-        "board": 1,
-        "turnover": 11.27,
-        "first_time": "",
-        "amount": 5.48,
-        "style": "换手"
-      },
-      {
-        "code": "600179",
-        "name": "安通控股",
-        "change_pct": -4.13,
-        "board": 1,
-        "turnover": 2.42,
-        "first_time": "",
-        "amount": 4.45,
-        "style": "换手"
-      },
-      {
-        "code": "688450",
-        "name": "光格科技",
-        "change_pct": -4.13,
-        "board": 1,
-        "turnover": 9.2,
-        "first_time": "",
-        "amount": 3.04,
-        "style": "换手"
-      },
-      {
-        "code": "000620",
-        "name": "盈新发展",
-        "change_pct": -4.16,
-        "board": 1,
-        "turnover": 14.12,
-        "first_time": "",
-        "amount": 24.9,
-        "style": "换手"
-      },
-      {
-        "code": "002119",
-        "name": "康强电子",
-        "change_pct": -4.28,
-        "board": 1,
-        "turnover": 24.01,
-        "first_time": "",
-        "amount": 34.82,
-        "style": "换手"
-      },
-      {
-        "code": "003043",
-        "name": "华亚智能",
-        "change_pct": -4.53,
-        "board": 1,
-        "turnover": 13.43,
-        "first_time": "",
-        "amount": 12.15,
-        "style": "换手"
-      },
-      {
-        "code": "603983",
-        "name": "丸美生物",
-        "change_pct": -4.67,
-        "board": 1,
-        "turnover": 3.03,
-        "first_time": "",
-        "amount": 3.48,
-        "style": "换手"
-      },
-      {
-        "code": "603956",
-        "name": "威派格",
-        "change_pct": -4.7,
-        "board": 1,
-        "turnover": 6.8,
-        "first_time": "",
-        "amount": 2.33,
-        "style": "换手"
-      },
-      {
-        "code": "600397",
-        "name": "江钨装备",
-        "change_pct": -4.84,
-        "board": 1,
-        "turnover": 14.29,
-        "first_time": "",
-        "amount": 42.81,
-        "style": "换手"
-      },
-      {
-        "code": "603212",
-        "name": "赛伍技术",
-        "change_pct": -5.05,
-        "board": 1,
-        "turnover": 6.09,
-        "first_time": "",
-        "amount": 3.48,
-        "style": "换手"
-      },
-      {
-        "code": "688352",
-        "name": "颀中科技",
-        "change_pct": -5.07,
-        "board": 1,
-        "turnover": 15.81,
-        "first_time": "",
-        "amount": 13.17,
-        "style": "换手"
-      },
-      {
-        "code": "002929",
-        "name": "润建股份",
-        "change_pct": -5.33,
-        "board": 1,
-        "turnover": 16.74,
-        "first_time": "",
-        "amount": 26.03,
-        "style": "换手"
-      },
-      {
-        "code": "600707",
-        "name": "彩虹股份",
-        "change_pct": -5.49,
-        "board": 1,
-        "turnover": 11.47,
-        "first_time": "",
-        "amount": 68.71,
-        "style": "换手"
-      },
-      {
-        "code": "002635",
-        "name": "安洁科技",
-        "change_pct": -5.6,
-        "board": 1,
-        "turnover": 28.81,
-        "first_time": "",
-        "amount": 25.93,
-        "style": "换手"
-      },
-      {
-        "code": "002208",
-        "name": "合肥城建",
-        "change_pct": -5.64,
-        "board": 1,
-        "turnover": 11.23,
-        "first_time": "",
-        "amount": 17.37,
-        "style": "换手"
-      },
-      {
-        "code": "001237",
-        "name": "惠康科技",
-        "change_pct": -5.69,
-        "board": 1,
-        "turnover": 26.92,
-        "first_time": "",
-        "amount": 6.75,
-        "style": "换手"
-      },
-      {
-        "code": "688202",
-        "name": "美迪西",
-        "change_pct": -5.72,
-        "board": 1,
-        "turnover": 7.26,
-        "first_time": "",
-        "amount": 7.82,
-        "style": "换手"
-      },
-      {
-        "code": "603989",
-        "name": "XD艾华集",
-        "change_pct": -5.96,
-        "board": 1,
-        "turnover": 4.87,
-        "first_time": "",
-        "amount": 9.33,
-        "style": "换手"
-      },
-      {
-        "code": "002638",
-        "name": "勤上股份",
-        "change_pct": -6.16,
-        "board": 1,
-        "turnover": 6.23,
-        "first_time": "",
-        "amount": 3.49,
+        "amount": 12.8,
         "style": "换手"
       },
       {
         "code": "300503",
         "name": "昊志机电",
-        "change_pct": -6.5,
+        "change_pct": 11.39,
         "board": 1,
-        "turnover": 15.42,
+        "turnover": 14.66,
         "first_time": "",
-        "amount": 36.01,
+        "amount": 35.78,
         "style": "换手"
       },
       {
-        "code": "300323",
-        "name": "华灿光电",
-        "change_pct": -6.55,
+        "code": "300607",
+        "name": "拓斯达",
+        "change_pct": 10.91,
         "board": 1,
-        "turnover": 14.88,
+        "turnover": 18.56,
         "first_time": "",
-        "amount": 37.4,
+        "amount": 31.12,
         "style": "换手"
       },
       {
-        "code": "688796",
-        "name": "百奥赛图",
-        "change_pct": -6.57,
+        "code": "688669",
+        "name": "聚石化学",
+        "change_pct": 10.83,
         "board": 1,
-        "turnover": 9.5,
+        "turnover": 3.71,
         "first_time": "",
-        "amount": 4.34,
+        "amount": 5.06,
         "style": "换手"
       },
       {
-        "code": "688222",
-        "name": "成都先导",
-        "change_pct": -6.81,
+        "code": "301232",
+        "name": "飞沃科技",
+        "change_pct": 10.71,
         "board": 1,
-        "turnover": 6.45,
+        "turnover": 13.8,
         "first_time": "",
-        "amount": 8.35,
+        "amount": 14.93,
         "style": "换手"
       },
       {
-        "code": "603950",
-        "name": "长源东谷",
-        "change_pct": -7.03,
+        "code": "300966",
+        "name": "共同药业",
+        "change_pct": 10.33,
         "board": 1,
-        "turnover": 3.05,
+        "turnover": 11.2,
         "first_time": "",
-        "amount": 8.32,
+        "amount": 2.63,
         "style": "换手"
       },
       {
-        "code": "603459",
-        "name": "红板科技",
-        "change_pct": -7.68,
+        "code": "000656",
+        "name": "金科股份",
+        "change_pct": 10.17,
         "board": 1,
-        "turnover": 28.55,
+        "turnover": 0.06,
         "first_time": "",
-        "amount": 22.64,
+        "amount": 0.06,
+        "style": "一字"
+      },
+      {
+        "code": "002141",
+        "name": "贤丰控股",
+        "change_pct": 10.06,
+        "board": 1,
+        "turnover": 13.58,
+        "first_time": "",
+        "amount": 6.82,
         "style": "换手"
       },
       {
-        "code": "688046",
-        "name": "药康生物",
-        "change_pct": -8.42,
+        "code": "000595",
+        "name": "宝塔实业",
+        "change_pct": 10.05,
         "board": 1,
-        "turnover": 3.25,
+        "turnover": 1.32,
         "first_time": "",
-        "amount": 3.27,
+        "amount": 0.94,
+        "style": "换手"
+      },
+      {
+        "code": "600793",
+        "name": "宜宾纸业",
+        "change_pct": 10.03,
+        "board": 1,
+        "turnover": 1.99,
+        "first_time": "",
+        "amount": 0.56,
+        "style": "换手"
+      },
+      {
+        "code": "603956",
+        "name": "威派格",
+        "change_pct": 10.03,
+        "board": 1,
+        "turnover": 6.41,
+        "first_time": "",
+        "amount": 2.33,
+        "style": "换手"
+      },
+      {
+        "code": "603137",
+        "name": "恒尚节能",
+        "change_pct": 10.03,
+        "board": 1,
+        "turnover": 0.24,
+        "first_time": "",
+        "amount": 0.07,
+        "style": "一字"
+      },
+      {
+        "code": "002396",
+        "name": "星网锐捷",
+        "change_pct": 10.01,
+        "board": 1,
+        "turnover": 0.9,
+        "first_time": "",
+        "amount": 1.59,
+        "style": "换手"
+      },
+      {
+        "code": "603211",
+        "name": "晋拓股份",
+        "change_pct": 10.01,
+        "board": 1,
+        "turnover": 2.7,
+        "first_time": "",
+        "amount": 2.59,
+        "style": "换手"
+      },
+      {
+        "code": "002868",
+        "name": "绿康生化",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 1.51,
+        "first_time": "",
+        "amount": 0.42,
+        "style": "换手"
+      },
+      {
+        "code": "603286",
+        "name": "日盈电子",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 5.98,
+        "first_time": "",
+        "amount": 3.83,
+        "style": "换手"
+      },
+      {
+        "code": "600988",
+        "name": "赤峰黄金",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 2.07,
+        "first_time": "",
+        "amount": 10.66,
+        "style": "换手"
+      },
+      {
+        "code": "600391",
+        "name": "航发科技",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 3.15,
+        "first_time": "",
+        "amount": 3.64,
+        "style": "换手"
+      },
+      {
+        "code": "000576",
+        "name": "甘化科工",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 5.26,
+        "first_time": "",
+        "amount": 1.8,
+        "style": "换手"
+      },
+      {
+        "code": "002747",
+        "name": "埃斯顿",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 15.87,
+        "first_time": "",
+        "amount": 53.92,
+        "style": "换手"
+      },
+      {
+        "code": "002850",
+        "name": "科达利",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 4.09,
+        "first_time": "",
+        "amount": 18.69,
+        "style": "换手"
+      },
+      {
+        "code": "603713",
+        "name": "密尔克卫",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 1.67,
+        "first_time": "",
+        "amount": 2.06,
+        "style": "换手"
+      },
+      {
+        "code": "002979",
+        "name": "雷赛智能",
+        "change_pct": 10.0,
+        "board": 1,
+        "turnover": 2.35,
+        "first_time": "",
+        "amount": 3.65,
+        "style": "换手"
+      },
+      {
+        "code": "001317",
+        "name": "三羊马",
+        "change_pct": 9.99,
+        "board": 1,
+        "turnover": 4.68,
+        "first_time": "",
+        "amount": 1.9,
+        "style": "换手"
+      },
+      {
+        "code": "000506",
+        "name": "招金黄金",
+        "change_pct": 9.99,
+        "board": 1,
+        "turnover": 2.67,
+        "first_time": "",
+        "amount": 3.4,
+        "style": "换手"
+      },
+      {
+        "code": "002472",
+        "name": "双环传动",
+        "change_pct": 9.99,
+        "board": 1,
+        "turnover": 9.31,
+        "first_time": "",
+        "amount": 31.81,
+        "style": "换手"
+      },
+      {
+        "code": "002981",
+        "name": "朝阳科技",
+        "change_pct": 9.99,
+        "board": 1,
+        "turnover": 4.02,
+        "first_time": "",
+        "amount": 1.0,
+        "style": "换手"
+      },
+      {
+        "code": "603559",
+        "name": "中通国脉",
+        "change_pct": 9.99,
+        "board": 1,
+        "turnover": 3.17,
+        "first_time": "",
+        "amount": 1.24,
+        "style": "换手"
+      },
+      {
+        "code": "002635",
+        "name": "安洁科技",
+        "change_pct": 9.98,
+        "board": 1,
+        "turnover": 11.86,
+        "first_time": "",
+        "amount": 10.47,
+        "style": "换手"
+      },
+      {
+        "code": "002520",
+        "name": "日发精机",
+        "change_pct": 9.97,
+        "board": 1,
+        "turnover": 8.87,
+        "first_time": "",
+        "amount": 4.84,
+        "style": "换手"
+      },
+      {
+        "code": "000004",
+        "name": "国华退",
+        "change_pct": 9.76,
+        "board": 1,
+        "turnover": 3.48,
+        "first_time": "",
+        "amount": 0.02,
+        "style": "换手"
+      },
+      {
+        "code": "300093",
+        "name": "金刚光伏",
+        "change_pct": 9.6,
+        "board": 1,
+        "turnover": 5.98,
+        "first_time": "",
+        "amount": 3.56,
+        "style": "换手"
+      },
+      {
+        "code": "300151",
+        "name": "昌红科技",
+        "change_pct": 9.35,
+        "board": 1,
+        "turnover": 10.01,
+        "first_time": "",
+        "amount": 9.81,
+        "style": "换手"
+      },
+      {
+        "code": "301067",
+        "name": "显盈科技",
+        "change_pct": 9.32,
+        "board": 1,
+        "turnover": 11.25,
+        "first_time": "",
+        "amount": 2.73,
+        "style": "换手"
+      },
+      {
+        "code": "301603",
+        "name": "乔锋智能",
+        "change_pct": 9.02,
+        "board": 1,
+        "turnover": 12.43,
+        "first_time": "",
+        "amount": 7.14,
+        "style": "换手"
+      },
+      {
+        "code": "002931",
+        "name": "锋龙股份",
+        "change_pct": 8.87,
+        "board": 1,
+        "turnover": 14.76,
+        "first_time": "",
+        "amount": 22.06,
+        "style": "换手"
+      },
+      {
+        "code": "600360",
+        "name": "华微电子",
+        "change_pct": 8.44,
+        "board": 1,
+        "turnover": 14.26,
+        "first_time": "",
+        "amount": 20.07,
+        "style": "换手"
+      },
+      {
+        "code": "301588",
+        "name": "美新科技",
+        "change_pct": 7.73,
+        "board": 1,
+        "turnover": 9.7,
+        "first_time": "",
+        "amount": 3.56,
+        "style": "换手"
+      },
+      {
+        "code": "300345",
+        "name": "华民股份",
+        "change_pct": 7.52,
+        "board": 1,
+        "turnover": 15.62,
+        "first_time": "",
+        "amount": 5.8,
+        "style": "换手"
+      },
+      {
+        "code": "002860",
+        "name": "星帅尔",
+        "change_pct": 7.5,
+        "board": 1,
+        "turnover": 8.12,
+        "first_time": "",
+        "amount": 4.37,
+        "style": "换手"
+      },
+      {
+        "code": "688685",
+        "name": "迈信林",
+        "change_pct": 7.49,
+        "board": 1,
+        "turnover": 6.16,
+        "first_time": "",
+        "amount": 5.21,
+        "style": "换手"
+      },
+      {
+        "code": "603580",
+        "name": "艾艾精工",
+        "change_pct": 7.12,
+        "board": 1,
+        "turnover": 4.35,
+        "first_time": "",
+        "amount": 1.66,
+        "style": "换手"
+      },
+      {
+        "code": "300558",
+        "name": "贝达药业",
+        "change_pct": 7.04,
+        "board": 1,
+        "turnover": 4.01,
+        "first_time": "",
+        "amount": 11.4,
+        "style": "换手"
+      },
+      {
+        "code": "688112",
+        "name": "鼎阳科技",
+        "change_pct": 7.01,
+        "board": 1,
+        "turnover": 2.29,
+        "first_time": "",
+        "amount": 2.99,
+        "style": "换手"
+      },
+      {
+        "code": "603588",
+        "name": "高能环境",
+        "change_pct": 6.95,
+        "board": 1,
+        "turnover": 6.37,
+        "first_time": "",
+        "amount": 19.01,
+        "style": "换手"
+      },
+      {
+        "code": "300671",
+        "name": "富满微",
+        "change_pct": 6.9,
+        "board": 1,
+        "turnover": 10.82,
+        "first_time": "",
+        "amount": 23.7,
+        "style": "换手"
+      },
+      {
+        "code": "603662",
+        "name": "柯力传感",
+        "change_pct": 6.45,
+        "board": 1,
+        "turnover": 7.23,
+        "first_time": "",
+        "amount": 15.55,
+        "style": "换手"
+      },
+      {
+        "code": "301520",
+        "name": "万邦医药",
+        "change_pct": 6.34,
+        "board": 1,
+        "turnover": 28.94,
+        "first_time": "",
+        "amount": 3.12,
+        "style": "换手"
+      },
+      {
+        "code": "688661",
+        "name": "和林微纳",
+        "change_pct": 6.33,
+        "board": 1,
+        "turnover": 3.0,
+        "first_time": "",
+        "amount": 7.41,
+        "style": "换手"
+      },
+      {
+        "code": "300083",
+        "name": "创世纪",
+        "change_pct": 6.01,
+        "board": 1,
+        "turnover": 6.68,
+        "first_time": "",
+        "amount": 13.78,
+        "style": "换手"
+      },
+      {
+        "code": "603725",
+        "name": "天安新材",
+        "change_pct": 5.99,
+        "board": 1,
+        "turnover": 7.57,
+        "first_time": "",
+        "amount": 3.0,
+        "style": "换手"
+      },
+      {
+        "code": "300878",
+        "name": "维康药业",
+        "change_pct": 5.89,
+        "board": 1,
+        "turnover": 4.32,
+        "first_time": "",
+        "amount": 2.32,
+        "style": "换手"
+      },
+      {
+        "code": "603223",
+        "name": "恒通股份",
+        "change_pct": 5.27,
+        "board": 1,
+        "turnover": 3.06,
+        "first_time": "",
+        "amount": 3.05,
+        "style": "换手"
+      },
+      {
+        "code": "603638",
+        "name": "艾迪精密",
+        "change_pct": 5.18,
+        "board": 1,
+        "turnover": 4.92,
+        "first_time": "",
+        "amount": 11.31,
+        "style": "换手"
+      },
+      {
+        "code": "920221",
+        "name": "易实精密",
+        "change_pct": 4.99,
+        "board": 1,
+        "turnover": 17.38,
+        "first_time": "",
+        "amount": 1.87,
+        "style": "换手"
+      },
+      {
+        "code": "301307",
+        "name": "美利信",
+        "change_pct": 4.83,
+        "board": 1,
+        "turnover": 11.52,
+        "first_time": "",
+        "amount": 10.39,
+        "style": "换手"
+      },
+      {
+        "code": "600885",
+        "name": "宏发股份",
+        "change_pct": 4.65,
+        "board": 1,
+        "turnover": 1.38,
+        "first_time": "",
+        "amount": 8.01,
+        "style": "换手"
+      },
+      {
+        "code": "600182",
+        "name": "S佳通",
+        "change_pct": 4.38,
+        "board": 1,
+        "turnover": 3.67,
+        "first_time": "",
+        "amount": 0.92,
+        "style": "换手"
+      },
+      {
+        "code": "603991",
+        "name": "领先股份",
+        "change_pct": 4.38,
+        "board": 1,
+        "turnover": 5.33,
+        "first_time": "",
+        "amount": 7.39,
+        "style": "换手"
+      },
+      {
+        "code": "600601",
+        "name": "方正科技",
+        "change_pct": 4.16,
+        "board": 1,
+        "turnover": 8.41,
+        "first_time": "",
+        "amount": 53.54,
+        "style": "换手"
+      },
+      {
+        "code": "688219",
+        "name": "会通股份",
+        "change_pct": 4.04,
+        "board": 1,
+        "turnover": 2.74,
+        "first_time": "",
+        "amount": 1.96,
+        "style": "换手"
+      },
+      {
+        "code": "605288",
+        "name": "凯迪股份",
+        "change_pct": 3.96,
+        "board": 1,
+        "turnover": 2.21,
+        "first_time": "",
+        "amount": 1.97,
+        "style": "换手"
+      },
+      {
+        "code": "603358",
+        "name": "华达科技",
+        "change_pct": 3.95,
+        "board": 1,
+        "turnover": 2.14,
+        "first_time": "",
+        "amount": 4.36,
+        "style": "换手"
+      },
+      {
+        "code": "600783",
+        "name": "鲁信创投",
+        "change_pct": 3.79,
+        "board": 1,
+        "turnover": 6.51,
+        "first_time": "",
+        "amount": 11.02,
+        "style": "换手"
+      },
+      {
+        "code": "002901",
+        "name": "大博医疗",
+        "change_pct": 3.56,
+        "board": 1,
+        "turnover": 1.11,
+        "first_time": "",
+        "amount": 1.44,
+        "style": "换手"
+      },
+      {
+        "code": "002025",
+        "name": "航天电器",
+        "change_pct": 3.55,
+        "board": 1,
+        "turnover": 4.98,
+        "first_time": "",
+        "amount": 19.4,
+        "style": "换手"
+      },
+      {
+        "code": "688117",
+        "name": "圣诺生物",
+        "change_pct": 3.22,
+        "board": 1,
+        "turnover": 3.96,
+        "first_time": "",
+        "amount": 2.6,
+        "style": "换手"
+      },
+      {
+        "code": "600641",
+        "name": "先导基电",
+        "change_pct": 3.11,
+        "board": 1,
+        "turnover": 13.73,
+        "first_time": "",
+        "amount": 62.99,
+        "style": "换手"
+      },
+      {
+        "code": "300550",
+        "name": "和仁科技",
+        "change_pct": 2.7,
+        "board": 1,
+        "turnover": 3.75,
+        "first_time": "",
+        "amount": 1.55,
+        "style": "换手"
+      },
+      {
+        "code": "688333",
+        "name": "铂力特",
+        "change_pct": 2.68,
+        "board": 1,
+        "turnover": 4.52,
+        "first_time": "",
+        "amount": 13.84,
+        "style": "换手"
+      },
+      {
+        "code": "001331",
+        "name": "胜通能源",
+        "change_pct": 2.6,
+        "board": 1,
+        "turnover": 5.56,
+        "first_time": "",
+        "amount": 10.34,
+        "style": "换手"
+      },
+      {
+        "code": "300765",
+        "name": "石药创新",
+        "change_pct": 2.52,
+        "board": 1,
+        "turnover": 1.81,
+        "first_time": "",
+        "amount": 8.91,
+        "style": "换手"
+      },
+      {
+        "code": "300780",
+        "name": "德恩精工",
+        "change_pct": 2.33,
+        "board": 1,
+        "turnover": 10.63,
+        "first_time": "",
+        "amount": 4.1,
+        "style": "换手"
+      },
+      {
+        "code": "605208",
+        "name": "永茂泰",
+        "change_pct": 2.31,
+        "board": 1,
+        "turnover": 3.74,
+        "first_time": "",
+        "amount": 2.09,
+        "style": "换手"
+      },
+      {
+        "code": "300562",
+        "name": "乐心医疗",
+        "change_pct": 2.22,
+        "board": 1,
+        "turnover": 7.42,
+        "first_time": "",
+        "amount": 1.85,
+        "style": "换手"
+      },
+      {
+        "code": "301607",
+        "name": "富特科技",
+        "change_pct": 2.13,
+        "board": 1,
+        "turnover": 6.63,
+        "first_time": "",
+        "amount": 5.23,
+        "style": "换手"
+      },
+      {
+        "code": "002422",
+        "name": "科伦药业",
+        "change_pct": 1.54,
+        "board": 1,
+        "turnover": 2.57,
+        "first_time": "",
+        "amount": 14.82,
+        "style": "换手"
+      },
+      {
+        "code": "601211",
+        "name": "国泰海通",
+        "change_pct": 1.3,
+        "board": 1,
+        "turnover": 0.66,
+        "first_time": "",
+        "amount": 17.26,
+        "style": "换手"
+      },
+      {
+        "code": "600400",
+        "name": "红豆股份",
+        "change_pct": 1.18,
+        "board": 1,
+        "turnover": 2.0,
+        "first_time": "",
+        "amount": 1.57,
+        "style": "换手"
+      },
+      {
+        "code": "605488",
+        "name": "福莱新材",
+        "change_pct": 1.17,
+        "board": 1,
+        "turnover": 6.7,
+        "first_time": "",
+        "amount": 6.33,
+        "style": "换手"
+      },
+      {
+        "code": "000603",
+        "name": "盛达资源",
+        "change_pct": 1.09,
+        "board": 1,
+        "turnover": 7.87,
+        "first_time": "",
+        "amount": 13.33,
+        "style": "换手"
+      },
+      {
+        "code": "000520",
+        "name": "凤凰航运",
+        "change_pct": 0.89,
+        "board": 1,
+        "turnover": 6.83,
+        "first_time": "",
+        "amount": 3.15,
+        "style": "换手"
+      },
+      {
+        "code": "301365",
+        "name": "矩阵股份",
+        "change_pct": 0.65,
+        "board": 1,
+        "turnover": 5.5,
+        "first_time": "",
+        "amount": 2.75,
+        "style": "换手"
+      },
+      {
+        "code": "002826",
+        "name": "易明医药",
+        "change_pct": 0.55,
+        "board": 1,
+        "turnover": 8.12,
+        "first_time": "",
+        "amount": 2.8,
+        "style": "换手"
+      },
+      {
+        "code": "600322",
+        "name": "津投城开",
+        "change_pct": 0.32,
+        "board": 1,
+        "turnover": 8.24,
+        "first_time": "",
+        "amount": 2.86,
+        "style": "换手"
+      },
+      {
+        "code": "002929",
+        "name": "润建股份",
+        "change_pct": 0.2,
+        "board": 1,
+        "turnover": 6.51,
+        "first_time": "",
+        "amount": 9.92,
+        "style": "换手"
+      },
+      {
+        "code": "920699",
+        "name": "海达尔",
+        "change_pct": 0.16,
+        "board": 1,
+        "turnover": 6.76,
+        "first_time": "",
+        "amount": 1.48,
+        "style": "换手"
+      },
+      {
+        "code": "601156",
+        "name": "东航物流",
+        "change_pct": -0.34,
+        "board": 1,
+        "turnover": 0.73,
+        "first_time": "",
+        "amount": 1.24,
+        "style": "换手"
+      },
+      {
+        "code": "002674",
+        "name": "兴业科技",
+        "change_pct": -0.74,
+        "board": 1,
+        "turnover": 9.42,
+        "first_time": "",
+        "amount": 7.56,
+        "style": "换手"
+      },
+      {
+        "code": "300860",
+        "name": "锋尚文化",
+        "change_pct": -0.92,
+        "board": 1,
+        "turnover": 1.86,
+        "first_time": "",
+        "amount": 0.55,
+        "style": "换手"
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "change_pct": -1.16,
+        "board": 1,
+        "turnover": 20.0,
+        "first_time": "",
+        "amount": 15.81,
+        "style": "换手"
+      },
+      {
+        "code": "002273",
+        "name": "水晶光电",
+        "change_pct": -1.44,
+        "board": 1,
+        "turnover": 7.88,
+        "first_time": "",
+        "amount": 41.53,
+        "style": "换手"
+      },
+      {
+        "code": "002167",
+        "name": "东方锆业",
+        "change_pct": -1.46,
+        "board": 1,
+        "turnover": 16.28,
+        "first_time": "",
+        "amount": 31.05,
+        "style": "换手"
+      },
+      {
+        "code": "603212",
+        "name": "赛伍技术",
+        "change_pct": -1.8,
+        "board": 1,
+        "turnover": 2.0,
+        "first_time": "",
+        "amount": 1.11,
         "style": "换手"
       },
       {
         "code": "002053",
         "name": "云南能投",
-        "change_pct": -9.34,
+        "change_pct": -1.94,
         "board": 1,
-        "turnover": 4.15,
+        "turnover": 1.63,
         "first_time": "",
-        "amount": 3.89,
+        "amount": 1.47,
         "style": "换手"
       },
       {
-        "code": "603061",
-        "name": "金海通",
-        "change_pct": -10.0,
+        "code": "000536",
+        "name": "华映科技",
+        "change_pct": -1.97,
         "board": 1,
-        "turnover": 3.29,
+        "turnover": 6.64,
         "first_time": "",
-        "amount": 13.79,
+        "amount": 7.46,
         "style": "换手"
       },
       {
-        "code": "605289",
-        "name": "罗曼股份",
-        "change_pct": -10.0,
+        "code": "605189",
+        "name": "富春染织",
+        "change_pct": -2.06,
         "board": 1,
-        "turnover": 6.0,
+        "turnover": 6.89,
         "first_time": "",
-        "amount": 13.61,
+        "amount": 2.35,
         "style": "换手"
       },
       {
-        "code": "688181",
-        "name": "八亿时空",
-        "change_pct": -10.84,
+        "code": "002738",
+        "name": "中矿资源",
+        "change_pct": -2.14,
         "board": 1,
-        "turnover": 14.06,
+        "turnover": 5.45,
         "first_time": "",
-        "amount": 11.64,
+        "amount": 24.98,
+        "style": "换手"
+      },
+      {
+        "code": "002458",
+        "name": "益生股份",
+        "change_pct": -2.23,
+        "board": 1,
+        "turnover": 12.99,
+        "first_time": "",
+        "amount": 11.76,
+        "style": "换手"
+      },
+      {
+        "code": "603257",
+        "name": "中国瑞林",
+        "change_pct": -2.26,
+        "board": 1,
+        "turnover": 7.16,
+        "first_time": "",
+        "amount": 1.48,
+        "style": "换手"
+      },
+      {
+        "code": "688103",
+        "name": "XD国力电",
+        "change_pct": -2.4,
+        "board": 1,
+        "turnover": 3.71,
+        "first_time": "",
+        "amount": 2.61,
+        "style": "换手"
+      },
+      {
+        "code": "603538",
+        "name": "美诺华",
+        "change_pct": -2.49,
+        "board": 1,
+        "turnover": 22.05,
+        "first_time": "",
+        "amount": 20.53,
         "style": "换手"
       },
       {
         "code": "300518",
         "name": "新迅达",
-        "change_pct": -14.22,
+        "change_pct": -2.7,
         "board": 1,
-        "turnover": 20.55,
+        "turnover": 7.04,
         "first_time": "",
-        "amount": 14.76,
+        "amount": 4.62,
+        "style": "换手"
+      },
+      {
+        "code": "300717",
+        "name": "华信新材",
+        "change_pct": -3.72,
+        "board": 1,
+        "turnover": 5.04,
+        "first_time": "",
+        "amount": 1.14,
+        "style": "换手"
+      },
+      {
+        "code": "002971",
+        "name": "和远气体",
+        "change_pct": -3.85,
+        "board": 1,
+        "turnover": 18.42,
+        "first_time": "",
+        "amount": 21.27,
+        "style": "换手"
+      },
+      {
+        "code": "301092",
+        "name": "争光股份",
+        "change_pct": -4.18,
+        "board": 1,
+        "turnover": 12.21,
+        "first_time": "",
+        "amount": 4.24,
+        "style": "换手"
+      },
+      {
+        "code": "603120",
+        "name": "肯特催化",
+        "change_pct": -4.49,
+        "board": 1,
+        "turnover": 12.12,
+        "first_time": "",
+        "amount": 2.68,
+        "style": "换手"
+      },
+      {
+        "code": "600113",
+        "name": "浙江东日",
+        "change_pct": -4.65,
+        "board": 1,
+        "turnover": 3.49,
+        "first_time": "",
+        "amount": 5.17,
+        "style": "换手"
+      },
+      {
+        "code": "600076",
+        "name": "康欣新材",
+        "change_pct": -4.72,
+        "board": 1,
+        "turnover": 4.02,
+        "first_time": "",
+        "amount": 1.86,
+        "style": "换手"
+      },
+      {
+        "code": "603928",
+        "name": "兴业股份",
+        "change_pct": -4.86,
+        "board": 1,
+        "turnover": 10.04,
+        "first_time": "",
+        "amount": 5.2,
+        "style": "换手"
+      },
+      {
+        "code": "688728",
+        "name": "格科微",
+        "change_pct": -5.48,
+        "board": 1,
+        "turnover": 2.02,
+        "first_time": "",
+        "amount": 11.95,
+        "style": "换手"
+      },
+      {
+        "code": "600857",
+        "name": "宁波中百",
+        "change_pct": -6.32,
+        "board": 1,
+        "turnover": 7.59,
+        "first_time": "",
+        "amount": 3.77,
+        "style": "换手"
+      },
+      {
+        "code": "002559",
+        "name": "亚威股份",
+        "change_pct": -6.44,
+        "board": 1,
+        "turnover": 25.67,
+        "first_time": "",
+        "amount": 18.44,
+        "style": "换手"
+      },
+      {
+        "code": "000601",
+        "name": "韶能股份",
+        "change_pct": -6.92,
+        "board": 1,
+        "turnover": 9.62,
+        "first_time": "",
+        "amount": 6.7,
+        "style": "换手"
+      },
+      {
+        "code": "605020",
+        "name": "永和股份",
+        "change_pct": -7.38,
+        "board": 1,
+        "turnover": 11.17,
+        "first_time": "",
+        "amount": 25.97,
+        "style": "换手"
+      },
+      {
+        "code": "002808",
+        "name": "恒久退",
+        "change_pct": -8.0,
+        "board": 1,
+        "turnover": 3.7,
+        "first_time": "",
+        "amount": 0.02,
+        "style": "换手"
+      },
+      {
+        "code": "001313",
+        "name": "粤海饲料",
+        "change_pct": -8.04,
+        "board": 1,
+        "turnover": 3.33,
+        "first_time": "",
+        "amount": 1.88,
+        "style": "换手"
+      },
+      {
+        "code": "603505",
+        "name": "金石资源",
+        "change_pct": -8.08,
+        "board": 1,
+        "turnover": 8.26,
+        "first_time": "",
+        "amount": 15.8,
+        "style": "换手"
+      },
+      {
+        "code": "603379",
+        "name": "三美股份",
+        "change_pct": -9.24,
+        "board": 1,
+        "turnover": 5.28,
+        "first_time": "",
+        "amount": 24.98,
+        "style": "换手"
+      },
+      {
+        "code": "601678",
+        "name": "滨化股份",
+        "change_pct": -9.61,
+        "board": 1,
+        "turnover": 17.78,
+        "first_time": "",
+        "amount": 26.1,
+        "style": "换手"
+      },
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "change_pct": -9.87,
+        "board": 1,
+        "turnover": 18.59,
+        "first_time": "",
+        "amount": 100.78,
         "style": "换手"
       }
     ]
   },
   "limits": {
-    "total_up": 93,
-    "total_down": 40,
-    "up_20cm": 8,
-    "down_20cm": 0,
-    "up_main_force": 32,
-    "down_high": 2
+    "total_up": 77,
+    "total_down": 7,
+    "up_20cm": 7,
+    "down_20cm": 1,
+    "up_main_force": 28,
+    "down_high": 0
   },
   "sectors": {
     "top5": [
       {
         "name": "贵金属",
-        "change_pct": 3.91,
-        "count_up": 12,
-        "count_down": 2,
-        "leader": "招金黄金",
-        "leader_pct": 10.04
+        "change_pct": 6.9,
+        "count_up": 13,
+        "count_down": 1,
+        "leader": "晓程科技",
+        "leader_pct": 12.76
       },
       {
-        "name": "纺织制造",
-        "change_pct": 2.56,
-        "count_up": 24,
-        "count_down": 8,
-        "leader": "欣龙控股",
-        "leader_pct": 10.09
+        "name": "电机",
+        "change_pct": 5.21,
+        "count_up": 25,
+        "count_down": 1,
+        "leader": "晨光电机",
+        "leader_pct": 10.81
       },
       {
-        "name": "工程机械",
-        "change_pct": 1.54,
-        "count_up": 21,
-        "count_down": 14,
-        "leader": "天元智能",
-        "leader_pct": 10.04
+        "name": "自动化设备",
+        "change_pct": 4.05,
+        "count_up": 79,
+        "count_down": 16,
+        "leader": "新睿电子",
+        "leader_pct": 29.99
       },
       {
-        "name": "中药",
-        "change_pct": 1.31,
-        "count_up": 53,
-        "count_down": 15,
-        "leader": "健民集团",
-        "leader_pct": 7.67
+        "name": "汽车零部件",
+        "change_pct": 4.04,
+        "count_up": 255,
+        "count_down": 12,
+        "leader": "凯龙高科",
+        "leader_pct": 20.0
       },
       {
-        "name": "美容护理",
-        "change_pct": 1.3,
-        "count_up": 21,
-        "count_down": 11,
-        "leader": "水羊股份",
-        "leader_pct": 19.99
+        "name": "军工装备",
+        "change_pct": 3.52,
+        "count_up": 76,
+        "count_down": 6,
+        "leader": "中简科技",
+        "leader_pct": 15.82
       }
     ],
     "bottom3": [
       {
-        "name": "通信设备",
-        "change_pct": -4.4,
+        "name": "化学原料",
+        "change_pct": -1.38,
+        "count_up": 11,
+        "count_down": 48,
+        "leader": "ST兴化",
+        "leader_pct": 4.89
+      },
+      {
+        "name": "游戏",
+        "change_pct": -1.72,
+        "count_up": 4,
+        "count_down": 19,
+        "leader": "游族网络",
+        "leader_pct": 2.08
+      },
+      {
+        "name": "电子化学品",
+        "change_pct": -3.0,
         "count_up": 10,
-        "count_down": 81,
-        "leader": "*ST春兴",
-        "leader_pct": 5.2
-      },
-      {
-        "name": "半导体",
-        "change_pct": -5.51,
-        "count_up": 14,
-        "count_down": 165,
-        "leader": "气派科技",
-        "leader_pct": 20.0
-      },
-      {
-        "name": "元件",
-        "change_pct": -5.82,
-        "count_up": 7,
-        "count_down": 55,
-        "leader": "方正科技",
-        "leader_pct": 6.8
+        "count_down": 32,
+        "leader": "中石科技",
+        "leader_pct": 12.1
       }
     ]
   },
   "north_flow": 0,
-  "dragon_tiger": [
-    {
-      "code": "000004",
-      "name": "国华退",
-      "change_pct": 8.82,
-      "buy": 163.57,
-      "sell": 185.79,
-      "reason": "退市整理期"
-    },
-    {
-      "code": "000566",
-      "name": "海南海药",
-      "change_pct": 10.02,
-      "buy": 12112.9,
-      "sell": 8002.17,
-      "reason": "日振幅值达到15%的前5只证券"
-    },
-    {
-      "code": "000566",
-      "name": "海南海药",
-      "change_pct": 10.02,
-      "buy": 23484.71,
-      "sell": 19745.85,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "000620",
-      "name": "盈新发展",
-      "change_pct": 10.0,
-      "buy": 35596.15,
-      "sell": 31179.52,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000823",
-      "name": "超声电子",
-      "change_pct": 1.36,
-      "buy": 60219.33,
-      "sell": 56368.35,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "001223",
-      "name": "欧克科技",
-      "change_pct": -9.96,
-      "buy": 1681.65,
-      "sell": 5169.21,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "001237",
-      "name": "惠康科技",
-      "change_pct": 2.02,
-      "buy": 27175.25,
-      "sell": 20305.78,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "001237",
-      "name": "惠康科技",
-      "change_pct": 2.02,
-      "buy": 7303.5,
-      "sell": 15517.39,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "001257",
-      "name": "盛龙股份",
-      "change_pct": 4.96,
-      "buy": 14534.55,
-      "sell": 12952.9,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "001331",
-      "name": "胜通能源",
-      "change_pct": 10.0,
-      "buy": 49186.15,
-      "sell": 60687.56,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "001388",
-      "name": "信通电子",
-      "change_pct": 7.94,
-      "buy": 2012.69,
-      "sell": 4700.54,
-      "reason": "日振幅值达到15%的前5只证券"
-    },
-    {
-      "code": "001389",
-      "name": "广合科技",
-      "change_pct": -8.75,
-      "buy": 51589.99,
-      "sell": 59703.01,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002038",
-      "name": "双鹭药业",
-      "change_pct": 5.9,
-      "buy": 13674.84,
-      "sell": 14848.04,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002053",
-      "name": "云南能投",
-      "change_pct": 9.97,
-      "buy": 12989.28,
-      "sell": 8472.34,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002150",
-      "name": "正泰电源",
-      "change_pct": 3.6,
-      "buy": 13264.5,
-      "sell": 12847.5,
-      "reason": "日振幅值达到15%的前5只证券"
-    },
-    {
-      "code": "002167",
-      "name": "东方锆业",
-      "change_pct": 10.01,
-      "buy": 71602.73,
-      "sell": 34631.22,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002354",
-      "name": "天娱数科",
-      "change_pct": 1.08,
-      "buy": 48359.57,
-      "sell": 54977.99,
-      "reason": "日换手率达到20%的前5只证券"
-    },
-    {
-      "code": "002407",
-      "name": "多氟多",
-      "change_pct": 9.99,
-      "buy": 57486.69,
-      "sell": 25625.39,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002407",
-      "name": "多氟多",
-      "change_pct": 9.99,
-      "buy": 267475.5,
-      "sell": 88850.19,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002409",
-      "name": "雅克科技",
-      "change_pct": 5.16,
-      "buy": 293761.61,
-      "sell": 272895.74,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002491",
-      "name": "通鼎互联",
-      "change_pct": -8.67,
-      "buy": 65271.02,
-      "sell": 80592.39,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002491",
-      "name": "通鼎互联",
-      "change_pct": -8.67,
-      "buy": 187584.17,
-      "sell": 208252.78,
-      "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002522",
-      "name": "浙江众成",
-      "change_pct": -10.04,
-      "buy": 6130.11,
-      "sell": 11267.56,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002653",
-      "name": "海思科",
-      "change_pct": 9.98,
-      "buy": 18132.07,
-      "sell": 18236.69,
-      "reason": "日振幅值达到15%的前5只证券"
-    },
-    {
-      "code": "002653",
-      "name": "海思科",
-      "change_pct": 9.98,
-      "buy": 36522.44,
-      "sell": 39568.42,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002674",
-      "name": "兴业科技",
-      "change_pct": -9.99,
-      "buy": 11167.55,
-      "sell": 10336.6,
-      "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002674",
-      "name": "兴业科技",
-      "change_pct": -9.99,
-      "buy": 10210.94,
-      "sell": 10244.16,
-      "reason": "日跌幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002733",
-      "name": "雄韬股份",
-      "change_pct": -8.01,
-      "buy": 45076.4,
-      "sell": 45884.16,
-      "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券"
-    },
-    {
-      "code": "002747",
-      "name": "埃斯顿",
-      "change_pct": 9.99,
-      "buy": 41340.68,
-      "sell": 21343.12,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002808",
-      "name": "恒久退",
-      "change_pct": 9.52,
-      "buy": 137.95,
-      "sell": 90.25,
-      "reason": "退市整理期"
-    }
-  ],
+  "dragon_tiger": [],
   "events": [
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "晶方科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "石药景峰 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "中晶科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "天域生物 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "勘设股份 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "S佳通 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "莱宝高科 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "鲁信创投 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "沪电股份 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "再升科技 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "超声电子 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "胜通能源 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "光电股份 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "得邦照明 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "太极实业 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "丽臣实业 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "金海通 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "航天发展 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "华工科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "凯瑞德 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "山东玻纤 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "实益达 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "泰晶科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "百达精工 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "永鼎股份 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "通达动力 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "博迁新材 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "瑞玛精密 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "通鼎互联 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "华盛昌 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "风华高科 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "泰胜风能 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "法拉电子 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "火炬电子 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "洁美科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "中恒电气 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "剑桥科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "景旺电子 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "赛腾股份 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "江顺科技 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "雅克科技 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "华微电子 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "利通电子 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "星帅尔 炸板"
     },
     {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "立昂微 跌停"
+      "time": "04:41",
+      "type": "blast",
+      "msg": "浙江鼎力 炸板"
     },
     {
-      "time": "08:12",
+      "time": "04:41",
       "type": "limit_down",
-      "msg": "光迅科技 跌停"
+      "msg": "欢瑞世纪 跌停"
     },
     {
-      "time": "08:12",
+      "time": "04:41",
       "type": "limit_down",
-      "msg": "东山精密 跌停"
+      "msg": "法尔胜 跌停"
     },
     {
-      "time": "08:12",
+      "time": "04:41",
       "type": "limit_down",
-      "msg": "长电科技 跌停"
+      "msg": "京源环保 跌停"
     },
     {
-      "time": "08:12",
+      "time": "04:41",
       "type": "limit_down",
-      "msg": "深科技 跌停"
+      "msg": "龙头股份 跌停"
     },
     {
-      "time": "08:12",
+      "time": "04:41",
+      "type": "limit_down",
+      "msg": "国晟科技 跌停"
+    },
+    {
+      "time": "04:41",
       "type": "limit_down",
       "msg": "奥康国际 跌停"
     },
     {
-      "time": "08:12",
+      "time": "04:41",
       "type": "limit_down",
-      "msg": "北方华创 跌停"
-    },
-    {
-      "time": "08:12",
-      "type": "limit_down",
-      "msg": "兆易创新 跌停"
+      "msg": "惠科股份 跌停"
     }
   ],
   "history_emotion": [
