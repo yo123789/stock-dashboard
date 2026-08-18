@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-18 15:46:21",
+  "timestamp": "2026-08-18 16:16:43",
   "date": "2026-08-18",
   "market": {
-    "price": 3982.65,
-    "change_pct": 1.41,
-    "volume": 489.8
+    "price": 3990.3,
+    "change_pct": 0.19,
+    "volume": 11351.9
   },
   "emotion": {
-    "score": 90,
+    "score": 85,
     "phase": "主升浪・强一致",
     "position": "8-10成",
     "detail": {
@@ -2165,142 +2165,142 @@
   ],
   "events": [
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "天洋新材 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "沃格光电 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "华阳新材 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "华生科技 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "圣达生物 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "南卫股份 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "嵘泰股份 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "风范股份 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "粤万年青 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "平潭发展 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "原尚股份 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "人民同泰 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "金 螳 螂 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "瑞丰高材 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "中源家居 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "宝泰隆 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "美农生物 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "中基健康 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "立昂微 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "水发燃气 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "秦川机床 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "中水渔业 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "blast",
       "msg": "埃斯顿 炸板"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "limit_down",
       "msg": "江瀚新材 跌停"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "limit_down",
       "msg": "坤泰股份 跌停"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "limit_down",
       "msg": "澳洋健康 跌停"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "limit_down",
       "msg": "金时科技 跌停"
     },
     {
-      "time": "07:46",
+      "time": "08:16",
       "type": "limit_down",
       "msg": "贝达药业 跌停"
     }
