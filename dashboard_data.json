@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19 15:10:51",
+  "timestamp": "2026-08-19 15:53:50",
   "date": "2026-08-19",
   "market": {
     "price": 3894.42,
@@ -7,7 +7,7 @@
     "volume": 12181.1
   },
   "emotion": {
-    "score": 34,
+    "score": 33,
     "phase": "冰点・防守",
     "position": "空仓",
     "detail": {
@@ -16,7 +16,7 @@
       "noodle_count": 1,
       "promotion_rate": 0,
       "zt_count": 36,
-      "dt_count": 111,
+      "dt_count": 118,
       "zb_count": 12,
       "lb_count": 135
     }
@@ -1384,7 +1384,7 @@
   },
   "limits": {
     "total_up": 36,
-    "total_down": 111,
+    "total_down": 118,
     "up_20cm": 4,
     "down_20cm": 0,
     "up_main_force": 12,
@@ -1474,25 +1474,17 @@
       "code": "000620",
       "name": "盈新发展",
       "change_pct": 10.0,
-      "buy": 35090.77,
-      "sell": 9792.08,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "000620",
-      "name": "盈新发展",
-      "change_pct": 10.0,
       "buy": 67492.27,
       "sell": 48419.52,
       "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
     },
     {
-      "code": "000802",
-      "name": "北京文化",
-      "change_pct": -9.19,
-      "buy": 30165.86,
-      "sell": 42882.08,
-      "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券"
+      "code": "000620",
+      "name": "盈新发展",
+      "change_pct": 10.0,
+      "buy": 35090.77,
+      "sell": 9792.08,
+      "reason": "日涨幅偏离值达到7%的前5只证券"
     },
     {
       "code": "000802",
@@ -1501,6 +1493,14 @@
       "buy": 15605.39,
       "sell": 23347.95,
       "reason": "日换手率达到20%的前5只证券"
+    },
+    {
+      "code": "000802",
+      "name": "北京文化",
+      "change_pct": -9.19,
+      "buy": 30165.86,
+      "sell": 42882.08,
+      "reason": "连续三个交易日内，跌幅偏离值累计达到20%的证券"
     },
     {
       "code": "001260",
@@ -1666,17 +1666,17 @@
       "code": "300189",
       "name": "神农种业",
       "change_pct": 20.04,
-      "buy": 27164.45,
-      "sell": 21441.52,
-      "reason": "日涨幅达到15%的前5只证券"
+      "buy": 49429.17,
+      "sell": 33442.84,
+      "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
     },
     {
       "code": "300189",
       "name": "神农种业",
       "change_pct": 20.04,
-      "buy": 49429.17,
-      "sell": 33442.84,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+      "buy": 27164.45,
+      "sell": 21441.52,
+      "reason": "日涨幅达到15%的前5只证券"
     },
     {
       "code": "300243",
@@ -1705,154 +1705,154 @@
   ],
   "events": [
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
-      "msg": "中瓷电子 跌停"
+      "msg": "江钨装备 跌停"
     },
     {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "鸿博股份 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "富煌钢构 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "雷赛智能 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "华盛昌 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "黑芝麻 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "科瑞技术 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "风华高科 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "贤丰控股 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "锋龙股份 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "襄阳轴承 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "立新能源 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "光迅科技 跌停"
-    },
-    {
-      "time": "07:10",
-      "type": "limit_down",
-      "msg": "桂发祥 跌停"
-    },
-    {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "江海股份 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "圣达生物 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "中材科技 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "万通发展 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "通鼎互联 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "泰晶科技 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "兴森科技 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "洁美科技 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "麦格米特 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "巨轮智能 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "博迁新材 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "通富微电 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "卧龙电驱 跌停"
+    },
+    {
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "宏和科技 跌停"
+    },
+    {
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "天洋新材 跌停"
+    },
+    {
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "旭光电子 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "北京文化 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "景旺电子 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "金安国纪 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "华东数控 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "雅克科技 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "中大力德 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "长飞光纤 跌停"
+    },
+    {
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "莲花控股 跌停"
+    },
+    {
+      "time": "07:53",
       "type": "limit_down",
       "msg": "紫光股份 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "金 螳 螂 跌停"
     },
     {
-      "time": "07:10",
+      "time": "07:53",
       "type": "limit_down",
       "msg": "埃斯顿 跌停"
+    },
+    {
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "爱丽家居 跌停"
+    },
+    {
+      "time": "07:53",
+      "type": "limit_down",
+      "msg": "一鸣食品 跌停"
     }
   ],
   "history_emotion": [
