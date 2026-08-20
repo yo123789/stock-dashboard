@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20 15:12:26",
+  "timestamp": "2026-08-20 15:57:57",
   "date": "2026-08-20",
   "market": {
     "price": 3894.42,
@@ -11,18 +11,18 @@
     "phase": "震荡偏强・可操作",
     "position": "5-7成",
     "detail": {
-      "blast_rate": 36.0,
+      "blast_rate": 36.8,
       "prev_connect_pct": 5.6,
       "noodle_count": 1,
       "promotion_rate": 0,
-      "zt_count": 80,
+      "zt_count": 79,
       "dt_count": 12,
-      "zb_count": 45,
+      "zb_count": 46,
       "lb_count": 175
     }
   },
   "core": {
-    "blast_rate": 36.0,
+    "blast_rate": 36.8,
     "prev_connect_pct": 5.6,
     "noodle_count": 1,
     "promotion_rate": 0
@@ -35,9 +35,9 @@
         "name": "三元基因",
         "change_pct": 29.97,
         "board": 1,
-        "turnover": 4.71,
+        "turnover": 4.89,
         "first_time": "",
-        "amount": 1.31,
+        "amount": 1.34,
         "style": "换手"
       },
       {
@@ -1783,11 +1783,11 @@
     ]
   },
   "limits": {
-    "total_up": 80,
+    "total_up": 79,
     "total_down": 12,
     "up_20cm": 21,
     "down_20cm": 1,
-    "up_main_force": 27,
+    "up_main_force": 26,
     "down_high": 4
   },
   "sectors": {
@@ -1874,17 +1874,17 @@
       "code": "000505",
       "name": "京粮控股",
       "change_pct": 10.01,
-      "buy": 10663.91,
-      "sell": 5884.67,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
+      "buy": 12969.72,
+      "sell": 10514.2,
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
     },
     {
       "code": "000505",
       "name": "京粮控股",
       "change_pct": 10.01,
-      "buy": 12969.72,
-      "sell": 10514.2,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      "buy": 10663.91,
+      "sell": 5884.67,
+      "reason": "日涨幅偏离值达到7%的前5只证券"
     },
     {
       "code": "000526",
@@ -1964,7 +1964,7 @@
       "change_pct": -10.02,
       "buy": 6434.94,
       "sell": 20997.42,
-      "reason": "日换手率达到20%的前5只证券"
+      "reason": "日振幅值达到15%的前5只证券"
     },
     {
       "code": "002172",
@@ -1972,7 +1972,7 @@
       "change_pct": -10.02,
       "buy": 6434.94,
       "sell": 20997.42,
-      "reason": "日振幅值达到15%的前5只证券"
+      "reason": "日换手率达到20%的前5只证券"
     },
     {
       "code": "002346",
@@ -1988,7 +1988,7 @@
       "change_pct": -7.01,
       "buy": 28737.83,
       "sell": 55221.09,
-      "reason": "日换手率达到20%的前5只证券"
+      "reason": "日振幅值达到15%的前5只证券"
     },
     {
       "code": "002361",
@@ -1996,7 +1996,7 @@
       "change_pct": -7.01,
       "buy": 28737.83,
       "sell": 55221.09,
-      "reason": "日振幅值达到15%的前5只证券"
+      "reason": "日换手率达到20%的前5只证券"
     },
     {
       "code": "002365",
@@ -2012,7 +2012,7 @@
       "change_pct": -9.66,
       "buy": 39184.55,
       "sell": 52735.46,
-      "reason": "日振幅值达到15%的前5只证券"
+      "reason": "日换手率达到20%的前5只证券"
     },
     {
       "code": "002437",
@@ -2020,7 +2020,7 @@
       "change_pct": -9.66,
       "buy": 39184.55,
       "sell": 52735.46,
-      "reason": "日换手率达到20%的前5只证券"
+      "reason": "日振幅值达到15%的前5只证券"
     },
     {
       "code": "002953",
@@ -2105,152 +2105,152 @@
   ],
   "events": [
     {
-      "time": "07:12",
-      "type": "blast",
-      "msg": "翠微股份 炸板"
-    },
-    {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "东亚药业 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "长盈通 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "福星股份 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "荣旗科技 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "播恩集团 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "楚天龙 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "国新健康 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "义翘神州 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "太极集团 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
+      "type": "blast",
+      "msg": "城投控股 炸板"
+    },
+    {
+      "time": "07:57",
       "type": "blast",
       "msg": "昭衍新药 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "珍宝岛 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "丰倍生物 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "采纳股份 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "三羊马 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "奥康国际 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "奥赛康 炸板"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "blast",
       "msg": "大立科技 炸板"
     },
     {
-      "time": "07:12",
-      "type": "limit_down",
-      "msg": "晋拓股份 跌停"
-    },
-    {
-      "time": "07:12",
-      "type": "limit_down",
-      "msg": "首开股份 跌停"
-    },
-    {
-      "time": "07:12",
-      "type": "limit_down",
-      "msg": "红星发展 跌停"
-    },
-    {
-      "time": "07:12",
-      "type": "limit_down",
-      "msg": "天洋新材 跌停"
-    },
-    {
-      "time": "07:12",
+      "time": "07:57",
       "type": "limit_down",
       "msg": "桂发祥 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
+      "type": "limit_down",
+      "msg": "首开股份 跌停"
+    },
+    {
+      "time": "07:57",
       "type": "limit_down",
       "msg": "双英集团 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "limit_down",
       "msg": "罗普斯金 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "limit_down",
       "msg": "柘中股份 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "limit_down",
       "msg": "深华发Ａ 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
+      "type": "limit_down",
+      "msg": "晋拓股份 跌停"
+    },
+    {
+      "time": "07:57",
       "type": "limit_down",
       "msg": "华东数控 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
+      "type": "limit_down",
+      "msg": "天洋新材 跌停"
+    },
+    {
+      "time": "07:57",
+      "type": "limit_down",
+      "msg": "红星发展 跌停"
+    },
+    {
+      "time": "07:57",
       "type": "limit_down",
       "msg": "中大力德 跌停"
     },
     {
-      "time": "07:12",
+      "time": "07:57",
       "type": "limit_down",
       "msg": "传智教育 跌停"
     }
