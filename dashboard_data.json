@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-21 15:37:53",
+  "timestamp": "2026-08-21 16:19:22",
   "date": "2026-08-21",
   "market": {
-    "price": 3905.2,
-    "change_pct": 0.04,
-    "volume": 8834.2
+    "price": 3903.72,
+    "change_pct": 0.24,
+    "volume": 506.6
   },
   "emotion": {
     "score": 79,
@@ -1244,17 +1244,17 @@
       "code": "000523",
       "name": "红棉股份",
       "change_pct": 9.97,
-      "buy": 14181.79,
-      "sell": 7818.18,
-      "reason": "日振幅值达到15%的前5只证券"
+      "buy": 20812.32,
+      "sell": 12393.76,
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
     },
     {
       "code": "000523",
       "name": "红棉股份",
       "change_pct": 9.97,
-      "buy": 20812.32,
-      "sell": 12393.76,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      "buy": 14181.79,
+      "sell": 7818.18,
+      "reason": "日振幅值达到15%的前5只证券"
     },
     {
       "code": "000703",
@@ -1475,152 +1475,152 @@
   ],
   "events": [
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "志邦家居 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "国机汽车 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "速达股份 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "海森药业 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "金瑞矿业 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "崇达技术 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "国仪公司-U 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "大元泵业 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "艾艾精工 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "南风股份 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "华盛昌 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "华正新材 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "大中矿业 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "康希诺 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "铭科精技 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "中化国际 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "blast",
       "msg": "长华集团 炸板"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "百合股份 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "海阳科技 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "万向德农 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "红棉股份 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "京粮控股 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "红四方 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "哈三联 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "传智教育 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "宝泰隆 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "一鸣食品 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "美诺华 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "开开实业 跌停"
     },
     {
-      "time": "07:37",
+      "time": "08:19",
       "type": "limit_down",
       "msg": "百合花 跌停"
     }
