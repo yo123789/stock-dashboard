@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-25 15:32:16",
+  "timestamp": "2026-08-25 16:08:01",
   "date": "2026-08-25",
   "market": {
-    "price": 3889.44,
-    "change_pct": 0.19,
-    "volume": 8588.7
+    "price": 3882.01,
+    "change_pct": -0.59,
+    "volume": 486.9
   },
   "emotion": {
-    "score": 87,
+    "score": 83,
     "phase": "主升浪・强一致",
     "position": "8-10成",
     "detail": {
@@ -16,7 +16,7 @@
       "noodle_count": 0,
       "promotion_rate": 0,
       "zt_count": 65,
-      "dt_count": 0,
+      "dt_count": 2,
       "zb_count": 22,
       "lb_count": 113
     }
@@ -1164,7 +1164,7 @@
   },
   "limits": {
     "total_up": 65,
-    "total_down": 0,
+    "total_down": 2,
     "up_20cm": 4,
     "down_20cm": 0,
     "up_main_force": 18,
@@ -1366,25 +1366,17 @@
       "code": "002716",
       "name": "湖南白银",
       "change_pct": 9.98,
-      "buy": 71030.3,
-      "sell": 90782.02,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
-    },
-    {
-      "code": "002716",
-      "name": "湖南白银",
-      "change_pct": 9.98,
       "buy": 136378.56,
       "sell": 126753.68,
       "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
     },
     {
-      "code": "002731",
-      "name": "*ST萃华",
-      "change_pct": 10.34,
-      "buy": 761.75,
-      "sell": 974.58,
-      "reason": "日换手率达到20%的前5只证券"
+      "code": "002716",
+      "name": "湖南白银",
+      "change_pct": 9.98,
+      "buy": 71030.3,
+      "sell": 90782.02,
+      "reason": "日涨幅偏离值达到7%的前5只证券"
     },
     {
       "code": "002731",
@@ -1393,6 +1385,14 @@
       "buy": 761.75,
       "sell": 974.58,
       "reason": "日振幅值达到15%的前5只证券"
+    },
+    {
+      "code": "002731",
+      "name": "*ST萃华",
+      "change_pct": 10.34,
+      "buy": 761.75,
+      "sell": 974.58,
+      "reason": "日换手率达到20%的前5只证券"
     },
     {
       "code": "002860",
@@ -1446,17 +1446,17 @@
       "code": "200521",
       "name": "虹美菱B",
       "change_pct": 9.96,
-      "buy": 1023.11,
-      "sell": 447.17,
-      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+      "buy": 1073.15,
+      "sell": 383.98,
+      "reason": "日涨幅偏离值达到7%的前5只证券"
     },
     {
       "code": "200521",
       "name": "虹美菱B",
       "change_pct": 9.96,
-      "buy": 1073.15,
-      "sell": 383.98,
-      "reason": "日涨幅偏离值达到7%的前5只证券"
+      "buy": 1023.11,
+      "sell": 447.17,
+      "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
     },
     {
       "code": "300097",
@@ -1485,114 +1485,124 @@
   ],
   "events": [
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "江特电机 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "三峡旅游 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "联合精密 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "明牌珠宝 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "金煤科技 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "红棉股份 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "澳洋健康 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "英洛华 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "皮阿诺 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "敦煌种业 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "誉衡药业 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "黑芝麻 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "罗普斯金 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "西点药业 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "中百集团 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "天通股份 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "日丰股份 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "新晨科技 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "香江控股 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "金安国纪 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "联发股份 炸板"
     },
     {
-      "time": "07:32",
+      "time": "08:08",
       "type": "blast",
       "msg": "金字火腿 炸板"
+    },
+    {
+      "time": "08:08",
+      "type": "limit_down",
+      "msg": "菲林格尔 跌停"
+    },
+    {
+      "time": "08:08",
+      "type": "limit_down",
+      "msg": "养元饮品 跌停"
     }
   ],
   "history_emotion": [
