@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26 11:31:37",
+  "timestamp": "2026-08-26 12:19:05",
   "date": "2026-08-26",
   "market": {
     "price": 3916.83,
@@ -1614,7 +1614,7 @@
     "top5": [
       {
         "name": "工业金属",
-        "change_pct": 3.42,
+        "change_pct": 3.4,
         "count_up": 52,
         "count_down": 2,
         "leader": "精艺股份",
@@ -1622,7 +1622,7 @@
       },
       {
         "name": "证券",
-        "change_pct": 2.92,
+        "change_pct": 2.91,
         "count_up": 50,
         "count_down": 0,
         "leader": "锦龙股份",
@@ -1630,7 +1630,7 @@
       },
       {
         "name": "造纸",
-        "change_pct": 2.68,
+        "change_pct": 2.66,
         "count_up": 20,
         "count_down": 4,
         "leader": "青山纸业",
@@ -1655,16 +1655,16 @@
     ],
     "bottom3": [
       {
-        "name": "医药商业",
-        "change_pct": -0.2,
-        "count_up": 9,
-        "count_down": 21,
-        "leader": "开开实业",
-        "leader_pct": 6.88
+        "name": "电机",
+        "change_pct": -0.21,
+        "count_up": 18,
+        "count_down": 8,
+        "leader": "鸣志电器",
+        "leader_pct": 3.95
       },
       {
         "name": "油气开采及服务",
-        "change_pct": -1.16,
+        "change_pct": -1.17,
         "count_up": 4,
         "count_down": 15,
         "leader": "新潮能源",
@@ -1672,7 +1672,7 @@
       },
       {
         "name": "医疗服务",
-        "change_pct": -1.23,
+        "change_pct": -1.22,
         "count_up": 16,
         "count_down": 38,
         "leader": "华康洁净",
@@ -1925,72 +1925,72 @@
   ],
   "events": [
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "中南文化 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "中 关 村 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "汉森制药 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "亿利达 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "卫光生物 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "宁科生物 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "大千生态 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "益佰制药 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "日盈电子 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "澳洋健康 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "开开实业 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "尤夫股份 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "西安饮食 炸板"
     },
     {
-      "time": "03:31",
+      "time": "04:19",
       "type": "blast",
       "msg": "国仪公司-U 炸板"
     }
