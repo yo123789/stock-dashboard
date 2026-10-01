@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-01 14:50:02",
+  "timestamp": "2026-10-01 21:58:06",
   "date": "2026-10-01",
   "market": {
-    "price": 3842.19,
+    "price": 3842.2,
     "change_pct": 0.31,
-    "volume": 6794.0
+    "volume": 414.6
   },
   "emotion": {
     "score": 83,
@@ -2345,107 +2345,107 @@
   ],
   "events": [
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "恩华药业 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "环球印务 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "华之杰 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "大连热电 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "蓝丰生化 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "水晶光电 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "金辰股份 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "泉峰汽车 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "江淮汽车 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "南模生物 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "兔 宝 宝 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "blast",
       "msg": "荣丰控股 炸板"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "华升股份 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "联泰环保 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "安达股份 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "协和电子 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "雪龙集团 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "新中港 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "泰慕士 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "华瓷股份 跌停"
     },
     {
-      "time": "06:50",
+      "time": "13:58",
       "type": "limit_down",
       "msg": "澳弘电子 跌停"
     }
